@@ -10,7 +10,14 @@
     <nav>
       <li><a href="/">Home</a></li>
       <li><a href="/resources">Additional Resources</a></li>
-      <li><a href="#">Log Out</a></li>
+      <%if (currentUser) {%>
+      <form action="/?_method=DELETE" method="POST">
+      <input type="submit" name="" value="Logout">
+    </form>
+  <%} else {%>
+      <a href="/sessions/new">Log In</a>
+      Or <a href="/users/new">Sign Up</a>
+      <%}%>
     </nav>
 <div class="container">
   <%for (i=0; i<sites.length; i++) {%>
