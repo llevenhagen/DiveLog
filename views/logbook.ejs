@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dive Log</title>
+    <link rel="stylesheet" href="css/main.css"/>
+  </head>
+  <body>
+    <h1>Your Log Book</h1>
+    <nav>
+      <li><a href="/">Home</a></li>
+      <li><a href="/resources">Additional Resources</a></li>
+      <li><a href="#">Log Out</a></li>
+    </nav>
+<div class="container">
+  <%for (i=0; i<sites.length; i++) {%>
+  <div class="single">
+    <div class="site-header">
+    <h3><%=sites[i].name%></h3>
+    <h4><%=sites[i].location%></h4>
+    <h5><%=sites[i].date%></h5>
+    </div>
+    <div class="site-stats">
+    <img src="<%=sites[i].img%>"/>
+    <h5>Dive Buddies:</h5>
+    <p><%=sites[i].buddies%></p>
+    <h5>Weather:</h5>
+    <p><%=sites[i].weather%></p>
+    <h5>Dive Time:</h5>
+    <p><%=sites[i].diveTime%></p>
+    <h5>Air Consumption:</h5>
+    <p><%=sites[i].airCoairConsumption%></p>
+    <h5>Max Depth:</h5>
+    <p><%=sites[i].maxDepth%></p>
+    <h5>Wildlife:</h5>
+    <p><%=sites[i].wildlife%></p>
+    </div>
+    <div class="comments">
+    <h5>Additional Comments:</h5>
+    <p><%=sites[i].additionalComments%></p>
+    <h5>Rating (0-10):</h5>
+    <p><%=sites[i].rating%></p>
+    </div>
+<a href="/logbook/<%=sites[i].id%>">More Info</a>
+    </div>
+  <%}%>
+</div>
+<a href="/new">Log Dive</a>
+  </body>
+</html>

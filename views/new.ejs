@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>New Dive Site</title>
+    <link rel="stylesheet" href="css/main.css"/>
+  </head>
+  <body>
+    <div class="container">
+    <h1>Add Dive Site:</h1>
+      <form action="/logbook" method="POST">
+        Name: <input type="text" name="name" /><br/>
+        Location: <input type="text" name="location" /><br/>
+        Date: <input type="date" name="date" /><br/>
+        Image URL: <input type="text" name="img" /><br/>
+        Buddies: <input type="string" name="buddies" /><br/>
+        Weather: <input type="string" name="weather" /><br/>
+        Dive Time: <input type="string" name="diveTime" /><br/>
+        Air Consumption: <input type="number" name="airConsumption" /><br/>
+        Max Depth: <input type="number" name="maxDepth" /><br/>
+        Wildlife: <input type="string" name="wildlife" /><br/>
+        Additional Comments: <input type="string" name="additionalComments" /><br/>
+        Rating (0-10): <input type="number" name="rating" /><br/>
+        <input type="submit"/>
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Edit Log</title>
+    <link rel="stylesheet" href="css/main.css"/>
+  </head>
+  <body>
+    <div class="container">
+    <h1>Edit Dive:</h1>
+      <form action="/logbook/<%=site.id%>?_method=PUT" method="POST">
+        Name: <input type="text" name="name" placeholder="<%=site.name%>" /><br/>
+        Location: <input type="text" name="location" placeholder="<%=site.location%>"/><br/>
+        Date: <input type="date" name="date" placeholder="<%=site.date%>"/><br/>
+        Image URL: <input type="text" name="img" placeholder="<%=site.img%>"/><br/>
+        Buddies: <input type="string" name="buddies" placeholder="<%=site.buddies%>"/><br/>
+        Weather: <input type="string" name="weather" placeholder="<%=site.weather%>"/><br/>
+        Dive Time: <input type="string" name="diveTime" placeholder="<%=site.diveTime%>"/><br/>
+        Air Consumption: <input type="number" name="airConsumption" placeholder="<%=site.airConsumption%>"/><br/>
+        Max Depth: <input type="number" name="maxDepth" placeholder="<%=site.maxDepth%>"/><br/>
+        Wildlife: <input type="string" name="wildlife" placeholder="<%=site.wildlife%>"/><br/>
+        Additional Comments: <input type="string" name="additionalComments" placeholder="<%=site.additionalComments%>"/><br/>
+        Rating (0-10): <input type="number" name="rating" placeholder="<%=site.rating%>"/><br/>
+        <input type="submit"/>
+      </form>
+    </div>
+  </body>
+</html>
