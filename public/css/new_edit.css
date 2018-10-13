@@ -1,0 +1,113 @@
+:root {
+--wintergreen: #49857E;
+--babypowder: #FDFFFC;
+--darkcoral: #DD503A;
+--paynesgrey: #21333C;
+--columbiablue: #D0F3F5;
+}
+body {
+background: #0A064B;
+color: var(--babypowder);
+
+}
+form {
+  width: 50%;
+  padding: 25px 50px;
+  margin-left: 20%;
+  font-size: 22px;
+  text-decoration: underline;
+  font-family: 'Fugaz One', cursive;
+  background: #0A064B;
+
+}
+.container {
+  background: #22B9BE;
+  width: 85%;
+  margin-left: 7.5%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+input {
+  margin-top: 10px;
+  padding: 2px;
+  width: 100%;
+  line-height: 150%;
+  font-size: 25px;
+  font-family: 'Manuale', serif;
+  color: var(--darkcoral);
+}
+ header {
+  width: 85%;
+  margin-left: 7.5%;
+  margin-bottom: -16px;
+}
+h1 {
+  text-align: center;
+  font-family: 'Shrikhand', cursive;
+  font-style: italic;
+  font-size: 60px;
+  color: #F9BF13;
+  margin-bottom: -15px;
+  margin-left: 20%;
+  background: #BCF7E6;
+  width: 59.3%;
+  border-radius: 10px 10px 0 0;
+}
+
+ul {
+  border-radius: 5px 5px 0 0;
+  margin-top: 30px;
+  padding-top: 10px;
+  border-top: 2px solid #0A064B;
+  border-bottom: 2px solid #0A064B;
+  text-align: center;
+  background: var(--babypowder);
+}
+li {
+  display: inline-block;
+  font-family: 'Peddana', serif;
+  font-size: 35px;
+  margin: auto 20px;
+}
+a {
+  text-decoration: none;
+  color: #DD503A;
+}
+
+.login {
+  font-size: 18px;
+  color: var(--paynesgrey);
+  letter-spacing: 1px;
+  font-weight: 700;
+  font-family: 'Peddana', serif;
+  font-size: 24px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 0 30px;
+}
+.submit {
+  width: 30%;
+  margin-left: 35%;
+  color: #DD503A;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  font-family: 'Fugaz One', cursive;
+  font-size: 24px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding:  7px 20px;
+  margin-top: 20px;
+}
+
+/*
+font-family: 'Rock Salt', cursive;
+font-family: 'Fugaz One', cursive;
+font-family: 'Shrikhand', cursive; */
+
+
+/*
+font-family: 'Rubik Mono One', sans-serif;
+font-family: 'Manuale', serif;
+font-family: 'Sail', cursive;
+font-family: 'Peddana', serif; */

@@ -11,14 +11,16 @@
 </head>
 
 <body>
+  <header>
   <h1>Your Dive Log</h1>
   <% include ../partials/header.ejs %>
+</header>
   <div class="container">
     <%for (i=0; i<sites.length; i++) {%>
     <div class="single">
       <div class="site-header">
-        <h3>
-          <%=sites[i].name%>
+        <h3><a class="name" href="/logbook/<%=sites[i].id%>">
+          <%=sites[i].name%></a>
         </h3>
         <h4>
           <%=sites[i].location%>
@@ -30,8 +32,9 @@
       <div class="img">
         <img src="<%=sites[i].img%>" />
       </div>
-      <div class="more">
-        <a href="/logbook/<%=sites[i].id%>">More Info</a>
+      <div class="rating">
+        <hr/>
+        <h4 class="rate-text">Rating:</h4> <h3 class="rating"><%=sites[i].rating%>/10</h3>
       </div>
     </div>
     <%}%>

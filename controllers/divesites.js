@@ -42,7 +42,9 @@ router.get('/resources', (req, res)=> {
 })
 
 router.get('/new', (req, res)=> {
-  res.render('new.ejs');
+  res.render('new.ejs', {
+    currentUser: req.session.currentUser
+  });
 })
 router.post('/logbook', (req, res)=> {
   console.log(req.body);

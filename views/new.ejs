@@ -5,9 +5,12 @@
     <title>New Dive Site</title>
     <link href="https://fonts.googleapis.com/css?family=Fugaz+One|Rock+Salt|Shrikhand" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Manuale|Peddana|Rubik+Mono+One|Sail" rel="stylesheet">
-      <link rel="stylesheet" href="../../css/main.css" />
+      <link rel="stylesheet" href="../../css/new_edit.css" />
   </head>
   <body>
+    <header>
+  <% include ../partials/header.ejs%>
+</header>
     <div class="container">
     <h1>Add Dive Site:</h1>
       <form action="/logbook" method="POST">
@@ -23,7 +26,7 @@
         Wildlife: <input type="string" name="wildlife" /><br/>
         Additional Comments: <input type="string" name="additionalComments" /><br/>
         Rating (0-10): <input type="number" name="rating" /><br/>
-        <input type="submit"/>
+        <input class="submit" type="submit"/>
       </form>
     </div>
   </body>

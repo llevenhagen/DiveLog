@@ -6,12 +6,14 @@
     <link href="https://fonts.googleapis.com/css?family=Fugaz+One|Rock+Salt|Shrikhand" rel="stylesheet">
 
     <link href="https://fonts.googleapis.com/css?family=Manuale|Peddana|Rubik+Mono+One|Sail" rel="stylesheet">
-    <link rel="stylesheet" href="../../css/main.css" />
+    <link rel="stylesheet" href="../../css/new_edit.css" />
   </head>
   <body>
-    <div class="container">
-    <h1>Edit Dive:</h1>
+      <header>
     <% include ../partials/header.ejs%>
+  </header>
+  <div class="container">
+    <h1>Edit Dive:</h1>
       <form action="/logbook/<%=site.id%>?_method=PUT" method="POST">
         Name: <input type="text" name="name" placeholder="<%=site.name%>" /><br/>
         Location: <input type="text" name="location" placeholder="<%=site.location%>"/><br/>
@@ -25,7 +27,7 @@
         Wildlife: <input type="string" name="wildlife" placeholder="<%=site.wildlife%>"/><br/>
         Additional Comments: <input type="string" name="additionalComments" placeholder="<%=site.additionalComments%>"/><br/>
         Rating (0-10): <input type="number" name="rating" placeholder="<%=site.rating%>"/><br/>
-        <input type="submit"/>
+        <input class="submit" type="submit"/>
       </form>
     </div>
   </body>

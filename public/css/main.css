@@ -10,26 +10,26 @@ background-image: url("../../images/dimension.png");
 }
 header {
   border-radius: 20px;
+  width: 85%;
+  margin-left: 7.5%;
 }
 h1 {
+  border: 2px solid #0A064B;
   text-align: center;
-  font-family: 'Shrikhand', cursive;
+  font-family: 'Rock Salt', cursive;
+  font-style: italic;
   font-size: 65px;
-  color: #F7F1F0;
-  margin-bottom: -5px;
-  background: #26C1C6;
-  box-shadow: 11px 3px 20px 5px #0A064B;
-  border-radius: 10px;
-  width: 85%;
-  margin-left: 7.5%;
-  border-radius: 10px;
+  color: #BCF7E6;
+  margin-bottom: -15px;
+  background: #22B9BE;
+  border-radius: 10px 10px 0 0;
 }
-nav {
-  width: 85%;
-  margin-left: 7.5%;
-}
+
 ul {
-    border-radius: 10px;
+    padding-top: 10px;
+
+  border-left: 2px solid #0A064B;
+  border-right: 2px solid #0A064B;
   text-align: center;
   background: var(--babypowder);
 }
@@ -52,61 +52,72 @@ input, .login {
   border-radius: 5px;
   padding: 0 30px;
 }
-
 /*  This is where the log book page css starts:*/
+img {
+  max-height: 200px;
+  width: 100%;
+  border-radius: 1px;
+  /* box-shadow: 11px 3px 50px -13px var(--columbiablue); */
+  border: 1px solid #BCF7E6;
+}
 
 .container {
-  border-radius: 20px;
+  border-radius: 0 0 20px 20px;
   background: #0A064B;
   display: inline-flex;
   flex-wrap: wrap;
   justify-content: flex-start;
   align-items: flex-start;
-  margin: auto 100px;
-  padding: 1% 1% 1% 2%;
+  /* margin: auto 100px; */
+  padding: 2% 1% 2% 1.5%;
+  margin-top: -15px;
   margin-left: 7.5%;
-  width: 84%;
+  width: 82.5%;
 
+}
+.name {
+  color: var(--babypowder);
 }
 .single h3 {
   text-align: center;
   color: var(--babypowder);
   background: var(--darkcoral);
-  padding: 10px;
+  padding: 2px 10px;
   border-radius: 10px 10px 2px 2px;
   width: 100.3%;
   margin-left: -11px;
   margin-top: -1px;
   border-radius: 2px;
   letter-spacing: 2px;
-  font-size: 17px;
+  font-size: 30px;
+  font-family: 'Peddana', serif;
 }
 .single h4 {
   margin-bottom: -8px;
+  margin-top: -15px;
   color: #020313;
+  font-size: 20px;
 }
 .single h5 {
   color: #40569A;
+  margin-bottom: 25px;
+  font-size: 15px;
 }
 .single {
   background: var(--babypowder);
-  height: 400px;
+  height: 440px;
   width: 27%;
   margin: 30px 20px;
   border-radius: 5px;
   /* box-shadow: 11px 3px 99px -13px var(--babypowder); */
   padding: 0 1% 1.5% 1%;
   border: .5px solid #A0B9C1;
+  font-family: 'Manuale', serif;
 }
+
 .img {
   text-align: center;
   height: 210px;
-}
-img {
-  max-height: 200px;
-  width: 100%;
-  border-radius: 1px;
-  box-shadow: 11px 3px 50px -13px var(--columbiablue);
 }
 .more {
   margin-top: 10px;
@@ -119,6 +130,27 @@ img {
 .login {
   font-size: 18px;
   color: var(--paynesgrey);
+}
+.rate-text {
+  font-size: 30px;
+  color: #020313;
+  text-decoration: underline;
+  font-family: 'Peddana', serif;
+  padding: 15px 0 0 0;
+  margin-left: 20px;
+}
+.rating h3{
+  background: none;
+  color: #40569A;
+  background: var(--babypowder);
+  width: 40px;
+font-family: 'Peddana', serif;
+  font-size: 20px;
+  margin-left: 110px;
+  margin-top: -17px;
+  padding: 3px 10px;
+  border: .5px solid #F9BF13;
+  border-radius: 15px;
 }
 
 
