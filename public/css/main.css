@@ -13,15 +13,23 @@ header {
 }
 h1 {
   text-align: center;
-  font-family: 'Sail', cursive;
+  font-family: 'Shrikhand', cursive;
   font-size: 65px;
-  color: #2732C3;
+  color: #F7F1F0;
   margin-bottom: -5px;
-  background: #A0CFE0;
-  box-shadow: 11px 3px 20px 5px #2732C3;
+  background: #26C1C6;
+  box-shadow: 11px 3px 20px 5px #0A064B;
+  border-radius: 10px;
+  width: 85%;
+  margin-left: 7.5%;
   border-radius: 10px;
 }
+nav {
+  width: 85%;
+  margin-left: 7.5%;
+}
 ul {
+    border-radius: 10px;
   text-align: center;
   background: var(--babypowder);
 }
@@ -29,7 +37,7 @@ li {
   display: inline-block;
   font-family: 'Peddana', serif;
   font-size: 35px;
-  margin: auto 30px;
+  margin: auto 20px;
 }
 a {
   text-decoration: none;
@@ -55,7 +63,9 @@ input, .login {
   justify-content: flex-start;
   align-items: flex-start;
   margin: auto 100px;
-  padding-left: 1%;
+  padding: 1% 1% 1% 2%;
+  margin-left: 7.5%;
+  width: 84%;
 
 }
 .single h3 {
@@ -112,8 +122,10 @@ img {
 }
 
 
-
-
+/*
+font-family: 'Rock Salt', cursive;
+font-family: 'Fugaz One', cursive;
+font-family: 'Shrikhand', cursive; */
 
 
 /*
