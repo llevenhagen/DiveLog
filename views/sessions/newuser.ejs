@@ -11,7 +11,6 @@
 </head>
 
 <body>
-  <div class="container">
     <header>
       <nav>
         <ul>
@@ -20,7 +19,8 @@
         <li><a href="/resources">Additional Resources</a></li>
       </ul>
     </header>
-    <h1>Log In</h1>
+    <div class="container">
+    <h1 class="login-h1">Log In</h1>
     <form action="/sessions" method="POST">
       Username: <input type="text" name="username" required /><br />
       Password: <input type="password" name="password" required /><br />

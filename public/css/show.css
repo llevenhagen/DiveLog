@@ -8,25 +8,12 @@
 body {
   background: #0A064B;
 }
-
-ul {
-  margin-top: 25px;
-  border-top: .5px solid #F6E1CB;
-  text-align: center;
-  background: var(--babypowder);
-  border-radius:5px;
-}
-li {
-  display: inline-block;
-  font-family: 'Peddana', serif;
-  font-size: 35px;
-  margin: auto 50px;
-}
 a {
   text-decoration: none;
-  color: var(--darkcoral);
+  color: #DD503A;
 }
-input, button{
+
+input, button, .login{
   letter-spacing: 1px;
   font-weight: 700;
   font-family: 'Peddana', serif;
@@ -42,28 +29,53 @@ button > a {
   letter-spacing: 1px;
   font-weight: 700;
 }
-
-/*  This is where the log book page css starts:*/
-
-.container {
-  background-image: url("../../images/dimension.png");
-  /* background: var(--columbiablue); */
-  margin: -10px 100px auto 100px;
-  padding-bottom: 20px;
-  border-radius: 5px;
+header {
+  border-radius: 20px;
+  width: 85%;
+  margin-left: 7.5%;
 }
 h1 {
   text-align: center;
   margin-top: 40px;
   margin-bottom: -20px;
   padding-top: 30px;
-  padding-bottom: -70px;
 font-family: 'Shrikhand', cursive;
   font-size: 45px;
   letter-spacing: 1px;
-  color: #F9BF13;
+ color: #BCF7E6;
+  background: #40569A;
+  padding-bottom: 20px;
+  border-bottom: 5px solid #F9BF13;
   /* text-decoration: underline; */
 }
+
+ul {
+  margin-top: 22px;
+  padding-top: 10px;
+  /* border-lef: 2px solid #0A064B; */
+  text-align: center;
+  background: var(--babypowder);
+  border-radius: 5px 5px 0 0;
+}
+li {
+  display: inline-block;
+  font-family: 'Peddana', serif;
+  font-size: 35px;
+  margin: auto 30px;
+}
+
+/*  This is where the log book page css starts:*/
+
+.container {
+  width: 85%;
+  background-image: url("../../images/dimension.png");
+  /* background: var(--columbiablue); */
+  margin-top: -40px;
+  margin-left: 7.5%;
+  padding-bottom: 20px;
+  border-radius: 5px;
+}
+
 h2, h4 {
   margin-bottom: -10px;
   text-align: center;
@@ -118,6 +130,31 @@ img {
   border-radius: 1px;
   border-radius: 5px;
   box-shadow: -1px 1px 31px 10px var(--paynesgrey);
+}
+input, .login {
+  letter-spacing: 1px;
+  font-weight: 700;
+  font-family: 'Peddana', serif;
+  font-size: 24px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 0 30px;
+}
+.login {
+  font-size: 14px;
+  padding: 5px 10px;
+  margin-left: 20px;
+  color: #40569A;
+  font-family: 'Shrikhand', cursive;
+  font-weight: lighter;
+}
+.login-li {
+  color: #40569A;
+  margin-right: -70px;
+  margin-left: 30px;
+}
+.login-signup-li {
+  margin-right: -20px;
 }
 .comments {
   margin-top: -20px;

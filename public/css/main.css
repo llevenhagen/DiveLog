@@ -14,22 +14,25 @@ header {
   margin-left: 7.5%;
 }
 h1 {
-  border: 2px solid #0A064B;
-  text-align: center;
-  font-family: 'Rock Salt', cursive;
-  font-style: italic;
-  font-size: 60px;
   color: #BCF7E6;
-  margin-bottom: -15px;
-  background: #22B9BE;
-  border-radius: 10px 10px 0 0;
+    font-size: 40px;
+    width: 84.65%;
+    margin-left: 7.5%;
+    margin-top: -20px;
+    border-radius: 0;
+    background: #F9BF13;
+    border-left: 2px solid #0A064B;
+    border-top: 1px solid #BCF7E6;
+    border-right: 2px solid #0A064B;
+    border-bottom: 5px solid #BCF7E6;
+    text-align: center;
+    font-family: 'Rock Salt', cursive;
+    font-style: italic;
 }
 
 ul {
-    padding-top: 10px;
-
-  border-left: 2px solid #0A064B;
-  border-right: 2px solid #0A064B;
+  padding-top: 10px;
+  border: 2px solid #0A064B;
   text-align: center;
   background: var(--babypowder);
 }
@@ -37,7 +40,7 @@ li {
   display: inline-block;
   font-family: 'Peddana', serif;
   font-size: 35px;
-  margin: auto 20px;
+  margin: auto 30px;
 }
 a {
   text-decoration: none;
@@ -70,8 +73,8 @@ img {
   align-items: flex-start;
   /* margin: auto 100px; */
   padding: 2% 1% 2% 1.5%;
-  margin-top: -15px;
   margin-left: 7.5%;
+  margin-top: -27px;
   width: 82.5%;
 
 }
@@ -128,8 +131,20 @@ img {
   width: 43%;
 }
 .login {
-  font-size: 18px;
-  color: var(--paynesgrey);
+  font-size: 14px;
+  padding: 5px 10px;
+  margin-left: 20px;
+  color: #40569A;
+  font-family: 'Shrikhand', cursive;
+  font-weight: lighter;
+}
+.login-li {
+  color: #40569A;
+  margin-right: -70px;
+  margin-left: 30px;
+}
+.login-signup-li {
+  margin-right: -20px;
 }
 .rate-text {
   font-size: 30px;
@@ -152,19 +167,8 @@ font-family: 'Peddana', serif;
   border: .5px solid #F9BF13;
   border-radius: 15px;
 }
-/*  Resources Page extras:*/
 
-.resource-header ul {
-  border: 2px solid #0A064B;
-}
-.resources {
-  font-size: 40px;
-  width: 84.7%;
-  margin-left: 7.5%;
-  margin-top: -20px;
-  border-radius: 0;
-  background: #F9BF13;
-}
+
 /*
 font-family: 'Rock Salt', cursive;
 font-family: 'Fugaz One', cursive;

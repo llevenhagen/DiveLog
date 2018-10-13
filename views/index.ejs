@@ -10,15 +10,14 @@
   </head>
   <body>
     <header>
-    <% if (currentUser) {%>
-    <h1>Welcome, <%=currentUser.username%></h1>
-    <%} else {%>
-    <h1>Welcome, Diver!</h1>
-    <%}%>
     <nav>
       <% include ../partials/header.ejs %>
     </nav>
 </header>
-
+<% if (currentUser) {%>
+<h1>Welcome, <%=currentUser.username%></h1>
+<%} else {%>
+<h1>Welcome, Diver!</h1>
+<%}%>
   </body>
 </html>
