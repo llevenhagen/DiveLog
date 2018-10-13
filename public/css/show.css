@@ -1,0 +1,147 @@
+:root {
+--wintergreen: #49857E;
+--babypowder: #FDFFFC;
+--darkcoral: #DD503A;
+--paynesgrey: #21333C;
+--columbiablue: #C2E1F1;
+}
+body {
+background-image: url("../../images/dimension.png");
+}
+header {
+  text-align: center;
+  background: var(--columbiablue);
+}
+h1 {
+  margin-top: 40px;
+  padding-top: 30px;
+  padding-bottom: -70px;
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 55px;
+  color: var(--wintergreen);
+}
+ul {
+  text-align: center;
+  background: var(--babypowder);
+}
+li {
+  display: inline-block;
+  font-family: 'Peddana', serif;
+  font-size: 35px;
+  margin: auto 50px;
+}
+a {
+  text-decoration: none;
+  color: var(--darkcoral);
+}
+input, button{
+  letter-spacing: 1px;
+  font-weight: 700;
+  font-family: 'Peddana', serif;
+  font-size: 24px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 0 30px;
+}
+button > a {
+  color: black;
+  font-family: 'Peddana', serif;
+  font-size: 24px;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+/*  This is where the log book page css starts:*/
+
+.container {
+  background: var(--columbiablue);
+  margin: auto 100px;
+  padding-bottom: 20px;
+  border-radius: 2px;
+}
+h2, h4 {
+  text-align: center;
+  font-family: 'Manuale', serif;
+}
+h2 {
+  color:#13224E;
+  font-size: 30px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 20px;
+}
+p {
+  font-size: 15px;
+}
+.img {
+  margin-top: 50px;
+  text-align: center;
+}
+.site-stats {
+  text-align: left;
+  margin: 30px auto;
+}
+table {
+  padding-left: 0;
+  margin-left: 2%;
+}
+th, h5{
+  text-align: right;
+  text-decoration: underline;
+  font-family: 'Manuale', serif;
+}
+p {
+  font-family: 'Peddana', serif;
+  font-size: 27px;
+  width: 450px;
+  background: var(--babypowder);
+  line-height: 150%;
+  margin-left: 40px;
+  text-align: center;
+  border-bottom: 1.5px solid var(--darkcoral);
+  border-radius: 3px;
+
+}
+img {
+  text-align: center;
+  width: 60%;
+  border-radius: 1px;
+  border-radius: 5px;
+  box-shadow: -1px 1px 31px 10px var(--paynesgrey);
+}
+.comments {
+  margin-top: -20px;
+  text-align: center;
+  margin-left: 2%;
+}
+.comments h5 {
+  text-align: left;
+}
+.comments p {
+  width: 80%;
+  margin-left: 100px;
+  border-radius: 3px;
+}
+.rate {
+  color: var(--wintergreen);
+  margin-top: -20px;
+}
+
+.buttons {
+  display: inline-flex;
+  margin-left: 30%;
+}
+.button {
+  margin: 20px 50px 40px;
+}
+
+
+
+/*
+font-family: 'Rubik Mono One', sans-serif;
+font-family: 'Manuale', serif;
+font-family: 'Sail', cursive;
+font-family: 'Peddana', serif; */

@@ -3,11 +3,13 @@
   <head>
     <meta charset="utf-8">
     <title>Edit Log</title>
-    <link rel="stylesheet" href="css/main.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Manuale|Peddana|Rubik+Mono+One|Sail" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/main.css" />
   </head>
   <body>
     <div class="container">
     <h1>Edit Dive:</h1>
+    <% include ../partials/header.ejs%>
       <form action="/logbook/<%=site.id%>?_method=PUT" method="POST">
         Name: <input type="text" name="name" placeholder="<%=site.name%>" /><br/>
         Location: <input type="text" name="location" placeholder="<%=site.location%>"/><br/>

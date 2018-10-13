@@ -1,0 +1,15 @@
+<nav>
+  <ul>
+  <li><a href="/">Home</a></li>
+<li><a href="/new">Log Dive</a></li>
+  <li><a href="/logbook">Log Book</a></li>
+  <li><a href="/resources">Additional Resources</a></li>
+  <%if (currentUser) {%>
+  <li><form action="/?_method=DELETE" method="POST">
+  <input type="submit" name="" value="Logout"></li>
+</form>
+<%} else {%>
+  <li><a class="login" href="/sessions/new">Log In</a>
+  <a class="login" href="/users/new">Sign Up</a></li>
+  <%}%>
+</nav>

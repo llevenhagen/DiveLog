@@ -1,0 +1,115 @@
+:root {
+--wintergreen: #49857E;
+--babypowder: #FDFFFC;
+--darkcoral: #DD503A;
+--paynesgrey: #21333C;
+--columbiablue: #C2E1F1;
+}
+body {
+background-image: url("../../images/dimension.png");
+}
+header {
+  background: var(--columbiablue);
+}
+h1 {
+  text-align: center;
+  font-family: 'Sail', cursive;
+  font-size: 55px;
+  color: var(--paynesgrey);
+}
+
+ul {
+  text-align: center;
+  background: var(--babypowder);
+}
+li {
+  display: inline-block;
+  font-family: 'Peddana', serif;
+  font-size: 35px;
+  margin: auto 30px;
+}
+a {
+  text-decoration: none;
+  color: #DD503A;
+}
+input, .login {
+  letter-spacing: 1px;
+  font-weight: 700;
+  font-family: 'Peddana', serif;
+  font-size: 24px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 0 30px;
+}
+
+/*  This is where the log book page css starts:*/
+
+.container {
+  background: var(--columbiablue);
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: auto 100px;
+  padding-left: 1%;
+
+}
+.single h3 {
+  text-align: center;
+  color: var(--babypowder);
+  background: #024D24;
+  padding: 10px;
+  border-radius: 2px;
+  width: 100%;
+  margin-left: -10px;
+}
+.single h4 {
+  margin-bottom: -8px;
+  color: #020313;
+}
+.single h5 {
+  color: #40569A;
+}
+.single {
+  background: var(--babypowder);
+  height: 400px;
+  width: 27%;
+  margin: 30px 20px;
+  border-radius: 5px;
+  box-shadow: 11px 3px 99px -13px var(--babypowder);
+  padding: 0 1% 1.5% 1%;
+  border: .5px solid #A0B9C1;
+}
+.img {
+  text-align: center;
+  height: 210px;
+}
+img {
+  max-height: 200px;
+  width: 100%;
+  border-radius: 1px;
+  box-shadow: 11px 3px 99px -13px var(--columbiablue);
+}
+.more {
+  margin-top: 10px;
+  margin-left: 5%;
+  font-size: 20px;
+  border: 1px solid black;
+  padding-left: 10%;
+  width: 43%;
+}
+.login {
+  font-size: 18px;
+  color: var(--paynesgrey);
+}
+
+
+
+
+
+
+/*
+font-family: 'Rubik Mono One', sans-serif;
+font-family: 'Manuale', serif;
+font-family: 'Sail', cursive;
+font-family: 'Peddana', serif; */

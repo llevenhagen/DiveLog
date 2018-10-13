@@ -58,14 +58,16 @@ router.put('/logbook/:id', (req, res)=> {
 router.get('/logbook/:id', (req, res)=> {
   Sites.findById(req.params.id, (err, foundSite)=> {
     res.render('show.ejs', {
-      site: foundSite
+      site: foundSite,
+      currentUser: req.session.currentUser
     })
   })
 })
 router.get('/logbook/:id/edit', (req, res)=> {
   Sites.findById(req.params.id, (err, foundSite)=> {
     res.render('edit.ejs', {
-      site: foundSite
+      site: foundSite,
+      currentUser: req.session.currentUser
     })
   })
 })

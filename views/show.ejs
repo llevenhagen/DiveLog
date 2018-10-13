@@ -1,48 +1,115 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title><%=site.name%></title>
-    <link rel="stylesheet" href="css/main.css"/>
-  </head>
-  <body>
-    <h1><%=site.name%></h1>
-    <nav>
-      <li><a href="/">Home</a></li>
-      <li><a href="/logbook">Log Book</a></li>
-      <li><a href="/resources">Additional Resources</a></li>
-      <li><a href="#">Log Out</a></li>
-    </nav>
-<div class="container">
+
+<head>
+  <meta charset="utf-8">
+  <title>
+    <%=site.name%>
+  </title>
+  <link href="https://fonts.googleapis.com/css?family=Manuale|Peddana|Rubik+Mono+One|Sail" rel="stylesheet">
+  <link rel="stylesheet" href="../css/show.css" />
+</head>
+
+<body>
+  <header>
+    <h1>
+      <%=site.name%>
+    </h1>
+    <% include ../partials/header.ejs %>
+  </header>
+  <div class="container">
     <div class="site-header">
-    <h4><%=site.location%></h4>
-    <h5><%=site.date%></h5>
+      <h2>
+        <%=site.location%>
+      </h2>
+      <h4>
+        <%=site.date%>
+      </h4>
     </div>
-    <div class="site-stats">
-    <img src="<%=site.img%>"/>
-    <h5>Dive Buddies:</h5>
-    <p><%=site.buddies%></p>
-    <h5>Weather:</h5>
-    <p><%=site.weather%></p>
-    <h5>Dive Time:</h5>
-    <p><%=site.diveTime%></p>
-    <h5>Air Consumption:</h5>
-    <p><%=site.airCoairConsumption%></p>
-    <h5>Max Depth:</h5>
-    <p><%=site.maxDepth%></p>
-    <h5>Wildlife:</h5>
-    <p><%=site.wildlife%></p>
+      <div class="img">
+        <img src="<%=site.img%>" />
+      </div>
+      <div class="site-stats">
+      <table cellspacing=0; cellpadding=0; style="width: 100%">
+        <tr>
+          <th>
+            <h5>Dive Buddies:</h5>
+          </th>
+          <td>
+            <p>
+              <%=site.buddies%>
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <th>
+            <h5>Weather:</h5>
+          </th>
+          <td>
+            <p>
+              <%=site.weather%>
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <th>
+            <h5>Dive Time:</h5>
+          </th>
+          <td>
+            <p>
+              <%=site.diveTime%>
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <th>
+            <h5>Air Consumption:</h5>
+          </th>
+          <td>
+            <p>
+              <%=site.airConsumption%>
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <th>
+            <h5>Max Depth:</h5>
+          </th>
+          <td>
+            <p>
+              <%=site.maxDepth%>
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <th>
+            <h5>Wildlife:</h5>
+          </th>
+          <td>
+            <p>
+              <%=site.wildlife%>
+            </p>
+          </td>
+        </tr>
+      </table>
     </div>
     <div class="comments">
-    <h5>Additional Comments:</h5>
-    <p><%=site.additionalComments%></p>
-    <h5>Rating (0-10):</h5>
-    <p><%=site.rating%></p>
+      <h5>Additional Comments:</h5>
+      <p>
+        <%=site.additionalComments%>
+      </p>
+      <h5>Rating (0-10):</h5>
+      <p class="rate">
+        <%=site.rating%>
+      </p>
+    </div>
   </div>
+  <div class="buttons">
+  <button class="button"><a href="/logbook/<%=site.id%>/edit">Edit Dive</a></button>
+  <form action="/<%=site.id%>?_method=DELETE" method="POST">
+    <input class="button" type="submit" value="Delete Dive">
+  </form>
 </div>
-<a href="/logbook/<%=site.id%>/edit">Edit Dive</a>
-<form action="/<%=site.id%>?_method=DELETE" method="POST">
-  <input type ="submit" value="Delete Dive">
-</form>
-  </body>
+</body>
+
 </html>
