@@ -7,17 +7,26 @@
   <link href="https://fonts.googleapis.com/css?family=Fugaz+One|Rock+Salt|Shrikhand" rel="stylesheet">
 
   <link href="https://fonts.googleapis.com/css?family=Manuale|Peddana|Rubik+Mono+One|Sail" rel="stylesheet">
-  <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="../../css/new_edit.css" />
 </head>
 
 <body>
+  <header>
+    <nav>
+      <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/logbook">Log Book</a></li>
+      <li><a href="/resources">Additional Resources</a></li>
+    </ul>
+  </header>
   <div class="container">
     <h1>Sign Up</h1>
     <form action="/users" method="POST">
       Username: <input type="text" name="username" required /><br />
       Pasword: <input type="password" name="password" required /><br />
-      <input type="submit" />
+      <input class="submit" type="submit" />
     </form>
+    <p>**You'll have to Log in once you've signed up**
   </div>
 </body>
 

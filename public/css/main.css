@@ -18,7 +18,7 @@ h1 {
   text-align: center;
   font-family: 'Rock Salt', cursive;
   font-style: italic;
-  font-size: 65px;
+  font-size: 60px;
   color: #BCF7E6;
   margin-bottom: -15px;
   background: #22B9BE;
@@ -152,8 +152,19 @@ font-family: 'Peddana', serif;
   border: .5px solid #F9BF13;
   border-radius: 15px;
 }
+/*  Resources Page extras:*/
 
-
+.resource-header ul {
+  border: 2px solid #0A064B;
+}
+.resources {
+  font-size: 40px;
+  width: 84.7%;
+  margin-left: 7.5%;
+  margin-top: -20px;
+  border-radius: 0;
+  background: #F9BF13;
+}
 /*
 font-family: 'Rock Salt', cursive;
 font-family: 'Fugaz One', cursive;

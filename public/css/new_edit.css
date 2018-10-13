@@ -99,6 +99,11 @@ a {
   padding:  7px 20px;
   margin-top: 20px;
 }
+p {
+  margin-left: 40px;
+  font-family: 'Peddana', serif;
+  font-size: 25px;
+}
 
 /*
 font-family: 'Rock Salt', cursive;
