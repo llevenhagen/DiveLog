@@ -1,33 +1,36 @@
 :root {
---wintergreen: #49857E;
---babypowder: #FDFFFC;
---darkcoral: #DD503A;
---paynesgrey: #21333C;
---columbiablue: #D0F3F5;
+  --wintergreen: #49857E;
+  --babypowder: #FDFFFC;
+  --darkcoral: #DD503A;
+  --paynesgrey: #21333C;
+  --columbiablue: #D0F3F5;
 }
+
 body {
-background-image: url("../../images/dimension.png");
+  background-image: url("../../images/dimension.png");
 }
+
 header {
   border-radius: 20px;
   width: 85%;
   margin-left: 7.5%;
 }
+
 h1 {
   color: #BCF7E6;
-    font-size: 40px;
-    width: 84.65%;
-    margin-left: 7.5%;
-    margin-top: -20px;
-    border-radius: 0;
-    background: #F9BF13;
-    border-left: 2px solid #0A064B;
-    border-top: 1px solid #BCF7E6;
-    border-right: 2px solid #0A064B;
-    border-bottom: 5px solid #BCF7E6;
-    text-align: center;
-    font-family: 'Rock Salt', cursive;
-    font-style: italic;
+  font-size: 40px;
+  width: 84.65%;
+  margin-left: 7.5%;
+  margin-top: -20px;
+  border-radius: 0;
+  background: #F9BF13;
+  border-left: 2px solid #0A064B;
+  border-top: 1px solid #BCF7E6;
+  border-right: 2px solid #0A064B;
+  border-bottom: 5px solid #BCF7E6;
+  text-align: center;
+  font-family: 'Rock Salt', cursive;
+  font-style: italic;
 }
 
 ul {
@@ -36,16 +39,19 @@ ul {
   text-align: center;
   background: var(--babypowder);
 }
+
 li {
   display: inline-block;
   font-family: 'Peddana', serif;
   font-size: 35px;
   margin: auto 30px;
 }
+
 a {
   text-decoration: none;
   color: #DD503A;
 }
+
 input, .login {
   letter-spacing: 1px;
   font-weight: 700;
@@ -55,6 +61,7 @@ input, .login {
   border-radius: 5px;
   padding: 0 30px;
 }
+
 /*  This is where the log book page css starts:*/
 img {
   max-height: 200px;
@@ -76,11 +83,12 @@ img {
   margin-left: 7.5%;
   margin-top: -27px;
   width: 82.5%;
-
 }
+
 .name {
   color: var(--babypowder);
 }
+
 .single h3 {
   text-align: center;
   color: var(--babypowder);
@@ -95,17 +103,20 @@ img {
   font-size: 30px;
   font-family: 'Peddana', serif;
 }
+
 .single h4 {
   margin-bottom: -8px;
   margin-top: -15px;
   color: #020313;
   font-size: 20px;
 }
+
 .single h5 {
   color: #40569A;
   margin-bottom: 25px;
   font-size: 15px;
 }
+
 .single {
   background: var(--babypowder);
   height: 440px;
@@ -122,6 +133,7 @@ img {
   text-align: center;
   height: 210px;
 }
+
 .more {
   margin-top: 10px;
   margin-left: 5%;
@@ -130,6 +142,7 @@ img {
   padding-left: 10%;
   width: 43%;
 }
+
 .login {
   font-size: 14px;
   padding: 5px 10px;
@@ -138,15 +151,18 @@ img {
   font-family: 'Shrikhand', cursive;
   font-weight: lighter;
 }
+
 .login-li {
   color: #40569A;
   margin-right: -70px;
   margin-left: 30px;
 }
+
 .login-signup-li {
   margin-right: -10px;
   margin-left: -10px;
 }
+
 .rate-text {
   font-size: 30px;
   color: #020313;
@@ -155,7 +171,8 @@ img {
   padding: 15px 0 0 0;
   margin-left: 20px;
 }
-.rating h3{
+
+.rating h3 {
   background: none;
   color: #40569A;
   background: var(--babypowder);
@@ -168,6 +185,7 @@ img {
   border: .5px solid #F9BF13;
   border-radius: 15px;
 }
+
 .main {
   display: inline-flex;
   width: 85%;
@@ -178,33 +196,35 @@ img {
 }
 
 .usa {
- border-right: 2px solid var(--babypowder);
+  border-right: 2px solid var(--babypowder);
+  border-left: 2px solid #0A064B;
   background: url("/images/P9100911.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 470px;
   width: 50%;
-
-
 }
+
 .honduras {
   border-left: 2px solid var(--babypowder);
+  border-right: 2px solid #0A064B;
   background: url("/images/PA05E0271.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 470px;
   width: 50%;
-
 }
 
 .index {
   margin-bottom: 0px;
 }
+
 .links {
   display: inline-flex;
   margin-left: 7.5%;
   width: 100%;
 }
+
 .links a {
   color: var(--babypowder);
   font-family: 'Peddana', serif;
@@ -213,20 +233,61 @@ img {
   background: var(--darkcoral);
   margin-top: -4px;
   padding-left: 7%;
-  width: 35.28%;
+  width: 35.17%;
+  border-bottom: 2px solid #0A064B;
 }
+
 .u-logs {
   border-right: 2px solid var(--babypowder);
+  border-left: 2px solid #0A064B;
 }
+
 .h-logs {
   border-left: 2px solid var(--babypowder);
+  border-right: 2px solid #0A064B;
 }
+
+/*  Resource page css*/
+.resource-main {
+  width: 85%;
+  margin-left: 7.5%;
+  text-align: center;
+}
+
+table {
+  margin-top: -27px;
+  padding-top: 20px;
+  padding-left: 5%;
+  width: 100%;
+  background: var(--babypowder);
+  border-left: 1px solid #020313;
+  border-bottom: 1px solid #020313;
+}
+
+th {
+  color: #40569A;
+  padding: 10px 10px;
+  text-decoration: underline;
+  font-family: 'Peddana', serif;
+  font-size: 27px;
+  border-right: 1px solid #020313;
+}
+
+td {
+  font-family: 'Manuale', serif;
+  font-size: 20px;
+  padding: 10px 15px;
+  border-right: 1px solid #020313;
+}
+
+table, th, td {
+  border-collapse: collapse;
+}
+
 /*
 font-family: 'Rock Salt', cursive;
 font-family: 'Fugaz One', cursive;
 font-family: 'Shrikhand', cursive; */
-
-
 /*
 font-family: 'Rubik Mono One', sans-serif;
 font-family: 'Manuale', serif;
