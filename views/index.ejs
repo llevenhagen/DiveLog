@@ -1,23 +1,38 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Dive Log</title>
-    <link href="https://fonts.googleapis.com/css?family=Fugaz+One|Rock+Salt|Shrikhand" rel="stylesheet">
 
-    <link href="https://fonts.googleapis.com/css?family=Manuale|Peddana|Rubik+Mono+One|Sail" rel="stylesheet">
-    <link rel="stylesheet" href="css/main.css"/>
-  </head>
-  <body>
-    <header>
+<head>
+  <meta charset="utf-8">
+  <title>Dive Log</title>
+  <link href="https://fonts.googleapis.com/css?family=Fugaz+One|Rock+Salt|Shrikhand" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css?family=Manuale|Peddana|Rubik+Mono+One|Sail" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body>
+  <header>
     <nav>
       <% include ../partials/header.ejs %>
     </nav>
-</header>
-<% if (currentUser) {%>
-<h1>Welcome, <%=currentUser.username%></h1>
-<%} else {%>
-<h1>Welcome, Diver!</h1>
-<%}%>
-  </body>
+  </header>
+  <% if (currentUser) {%>
+  <h1 class="index">Welcome,
+    <%=currentUser.username%>
+  </h1>
+  <%} else {%>
+  <h1 class="index">Welcome, Diver!</h1>
+  <%}%>
+  <div class="main">
+    <div class="usa">
+    </div>
+    <div class="honduras">
+    </div>
+  </div>
+  <div class="links">
+  <a class="u-logs" href="#">USA Logs</a>
+  <a class="h-logs" href="#">Honduras Logs</a>
+</div>
+</body>
+
 </html>
