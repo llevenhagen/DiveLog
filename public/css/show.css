@@ -7,6 +7,7 @@
 }
 body {
   background: #0A064B;
+  padding-bottom: 20px;
 }
 a {
   text-decoration: none;
@@ -181,7 +182,21 @@ input, .login {
 .button {
   margin: 20px 50px 40px;
 }
-
+/*  hover settings*/
+nav a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+a[class="login"]:hover, input[type="submit"]:hover, a[class="submit"]:hover {
+  cursor: pointer;
+  background: #40569A;
+  color: var(--babypowder);
+}
+input[class="button"]:hover, a[class="submit"]:hover{
+  cursor: pointer;
+  background: var(--babypowder);
+  color: var(--darkcoral);
+}
 
 /*
 font-family: 'Rock Salt', cursive;

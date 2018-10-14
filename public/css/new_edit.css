@@ -7,34 +7,35 @@
 }
 body {
 background: #0A064B;
-color: var(--babypowder);
+color: #0A064B;
 
 }
 form {
-  width: 50%;
-  padding: 25px 50px;
+  width: 49.81%;
+  padding: 15px 50px;
   margin-left: 20%;
-  font-size: 22px;
+  font-size: 20px;
   text-decoration: underline;
   font-family: 'Fugaz One', cursive;
-  background: #0A064B;
+  background: var(--babypowder);
 
 }
 .container {
   background: #22B9BE;
-  width: 85%;
-  margin-left: 7.5%;
-  padding-top: 20px;
+  width: 84.6%;
+  margin-left: 7.7%;
+  padding-top: 10px;
   padding-bottom: 20px;
 }
-input {
+input, .login{
   margin-top: 10px;
   padding: 2px;
   width: 100%;
-  line-height: 150%;
-  font-size: 25px;
+  line-height: 100%;
+  font-size: 20px;
   font-family: 'Manuale', serif;
   color: var(--darkcoral);
+  background: #E1E7E7;
 }
  header {
   width: 85%;
@@ -45,9 +46,9 @@ h1 {
   text-align: center;
   font-family: 'Shrikhand', cursive;
   font-style: italic;
-  font-size: 60px;
+  font-size: 40px;
   color: #F9BF13;
-  margin-bottom: -15px;
+  margin-bottom: -12px;
   margin-left: 20%;
   background: #BCF7E6;
   width: 59.3%;
@@ -62,7 +63,7 @@ p {
 .submit {
   width: 30%;
   margin-left: 35%;
-  color: #DD503A;
+  background: var(--babypowder);
   font-size: 18px;
   letter-spacing: 1px;
   font-weight: 700;
@@ -104,12 +105,13 @@ header {
 }
 
 ul {
-  margin-top: 22px;
-  padding-top: 10px;
-  /* border-lef: 2px solid #0A064B; */
+  width: 96.7%;
+  padding-left: 20px;
+  border: 2px solid #0A064B;
   text-align: center;
   background: var(--babypowder);
-  border-radius: 5px 5px 0 0;
+
+  /* border-radius: 5px 5px 0 0; */
 }
 li {
   display: inline-block;
@@ -118,6 +120,7 @@ li {
   margin: auto 30px;
 }
 .login {
+  border: 1px solid black;
   font-size: 14px;
   padding: 5px 10px;
   margin-left: 20px;
@@ -126,12 +129,41 @@ li {
   font-weight: lighter;
 }
 .login-li {
+  letter-spacing: 1px;
+  font-weight: 700;
+  font-family: 'Peddana', serif;
+  font-size: 24px;
+  padding: 7px 40px;
+  border: 1px solid black;
   color: #40569A;
-  margin-right: -70px;
-  margin-left: 30px;
+  background: var(--babypowder);
+  border-radius: 5px;
+
+  width: 60%;
+}
+.logout-form {
+  width: 90%;
+  margin: 0;
+  margin-left: -23.5px;
 }
 .login-signup-li {
-  margin-right: -20px;
+  margin-right: -10px;
+  margin-left: -10px;
+}
+/*  hover events*/
+nav a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+input[type="submit"]:hover {
+  cursor: pointer;
+  background: #40569A;
+  color: var(--babypowder);
+}
+input[class="hover-switch"]:hover {
+  cursor: pointer;
+  background: var(--babypowder);
+  color: #40569A;
 }
 
 /*

@@ -1,11 +1,13 @@
 <nav>
   <ul>
   <li><a href="/">Home</a></li>
+  <% if (currentUser) {%>
 <li><a href="/new">Log Dive</a></li>
+<%}%>
   <li><a href="/logbook">Log Book</a></li>
   <li><a href="/resources">Additional Resources</a></li>
   <%if (currentUser) {%>
-  <li ><form action="/?_method=DELETE" method="POST">
+  <li ><form class="logout-form" action="/?_method=DELETE" method="POST">
   <input class="login-li" type="submit" name="" value="Logout"></li>
 </form>
 <%} else {%>

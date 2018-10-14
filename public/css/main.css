@@ -94,7 +94,6 @@ img {
   color: var(--babypowder);
   background: var(--darkcoral);
   padding: 2px 10px;
-  border-radius: 10px 10px 2px 2px;
   width: 100.3%;
   margin-left: -11px;
   margin-top: -1px;
@@ -283,6 +282,42 @@ td {
 table, th, td {
   border-collapse: collapse;
 }
+tr img {
+  border: none;
+}
+/* Hover effects: */
+ .name:hover {
+  background:#66D8F6;
+  color: var(--darkcoral);
+  cursor: pointer;
+}
+nav a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+a[class="u-logs"]:hover, a[class="h-logs"]:hover {
+  cursor: pointer;
+  background: var(--babypowder);
+  color: var(--darkcoral);
+}
+input[type="submit"]:hover {
+  cursor: pointer;
+  background: #40569A;
+  color: var(--babypowder);
+}
+a[class="login"]:hover {
+  cursor: pointer;
+  background: #40569A;
+  color: var(--babypowder);
+  text-decoration: none;
+}
+td a:hover {
+  color: #FB0505;
+  text-decoration: underline;
+
+  /* text-decoration: underline; */
+}
+
 
 /*
 font-family: 'Rock Salt', cursive;
