@@ -11,8 +11,10 @@ const User = require('./models/users.js')
 const PORT = process.env.PORT || 3000
 
 //Database
-const MONGODB_URI=process.env.MONGODB_URI || 'mongodb://localhost/dive_log';
-
+// const MONGODB_URI=process.env.MONGODB_URI || 'mongodb://localhost/dive_log';
+const MONGODB_URI= process.env.MONGODB_URI || "mongodb://heroku_6dpppncx:r0nck1b4aerisa1nndu5c3bj0l@ds229373.mlab.com:29373/heroku_6dpppncx" || "mongodb://localhost/dive_log";
+const HEROKU_CONNECT = "mongodb://llevenhagen:iloveicecream1@ds229373.mlab.com:29373/heroku_6dpppncx"
+mongoose.connect(HEROKU_CONNECT, {useNewUrlParser: true});
 //Connect to mongo
 mongoose.connect(MONGODB_URI, {useNewUrlParser: true});
 
