@@ -2,7 +2,8 @@ let seedSites = [
   {
   img: "http://divebums.com/wrecks/images/NOSC-Tower/diver-NOSC-Tower_2008_jen-tople.jpg",
   date: "06/20/18",
-  location: "San Diego, CA",
+  city: "San Diego, CA",
+  country: "USA",
   name: "NOSC Tower",
   buddies: ["Nathan", "Feelix"],
   weather: "Sunny, 80°",
@@ -16,7 +17,8 @@ let seedSites = [
 {
 img: "https://media-cdn.tripadvisor.com/media/photo-s/09/43/ce/f8/la-jolla-dive.jpg",
 date: "08/03/17",
-location: "San Diego, CA",
+city: "San Diego, CA",
+country: "USA",
 name: "La Jolla Canyon",
 buddies: ["Breanne", "Vivian"],
 weather: "Choppy waves, 75°",
@@ -30,7 +32,8 @@ rating: 8
 {
 img: "https://www.californiabeaches.com/wp-content/uploads/2014/09/IMG_2272-Large-933x700.jpg",
 date: "05/18/16",
-location: "Monterey, CA",
+city: "Monterey, CA",
+country: "USA",
 name: "McAbee Beach",
 buddies: ["Patty", "Kelly"],
 weather: "Overcast, 72°",
@@ -44,7 +47,8 @@ rating: 7
 {
 img: "http://www.theperfectdive.com/media/photos/396.jpg",
 date: "07/12/18",
-location: "Carmel, CA",
+city: "Carmel, CA",
+country: "USA",
 name: "Monestery, South",
 buddies: ["Jasmine", "Sean"],
 weather: "Sunny, 83°",
@@ -58,7 +62,8 @@ rating: 6
 {
 img: "http://www.theperfectdive.com/media/photos/912.jpg",
 date: "06/25/16",
-location: "Palos Verdes Peninsula, CA",
+city: "Palos Verdes Peninsula, CA",
+country: "USA",
 name: "Abalone Cove",
 buddies: ["Emily", "Pat"],
 weather: "Medium visibility, 70°",
@@ -72,7 +77,8 @@ rating: 6
 {
 img: "https://scubadiverlife.com/wp-content/uploads/2016/04/Undercut-at-Coco-View-1024x768.jpg",
 date: "07/07/18",
-location: "Roatan, Honduras",
+city: "Roatan",
+country: "Honduras",
 name: "Coco View Wall",
 buddies: ["Pat", "Walt", "Nate"],
 weather: "Sunny, 88°",
@@ -86,7 +92,8 @@ rating: 10
 {
 img: "https://i1.wp.com/scubadiverlife.com/wp-content/uploads/2016/04/Coral-Canyon-at-Marys-Place2.jpg?zoom=2&w=446&h=335&crop&ssl=1",
 date: "07/07/18",
-location: "Roatan, Honduras",
+city: "Roatan",
+country: "Honduras",
 name: "Mary's Place",
 buddies: ["Pat", "Walt", "Nate"],
 weather: "Sunny, 85°",
@@ -100,7 +107,8 @@ rating: 9
 {
 img: "https://i1.wp.com/scubadiverlife.com/wp-content/uploads/2016/04/Inside-Dolphins-Den.jpg?zoom=2&w=427&h=320&crop&ssl=1",
 date: "07/08/18",
-location: "Roatan, Honduras",
+city: "Roatan",
+country: "Honduras",
 name: "Dolphin's Den",
 buddies: ["Rachel", "Sheryl", "Lisa"],
 weather: "Overcast, 80°",
@@ -114,7 +122,8 @@ rating: 9
 {
 img: "https://i0.wp.com/scubadiverlife.com/wp-content/uploads/2016/04/Nudibranch-at-Fish-Den.jpg?zoom=2&w=598&h=448&crop&ssl=1",
 date: "07/08/18",
-location: "Roatan, Honduras",
+city: "Roatan",
+country: "Honduras",
 name: "Fish Den",
 buddies: ["Nate", "Sabrina", "Rachel"],
 weather: "Overcast, 80°",
@@ -128,7 +137,8 @@ rating: 8
 {
 img: "https://i2.wp.com/scubadiverlife.com/wp-content/uploads/2016/04/El-Aguila2.jpg?zoom=2&w=446&h=335&crop&ssl=1",
 date: "07/09/18",
-location: "Roatan, Honduras",
+city: "Roatan",
+country: "Honduras",
 name: "El Aguila",
 buddies: ["Vivian", "Breanne", "Patty"],
 weather: "Sunny/Overcast, 79°",

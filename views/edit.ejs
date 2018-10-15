@@ -16,7 +16,8 @@
     <h1>Edit Dive:</h1>
       <form action="/logbook/<%=site.id%>?_method=PUT" method="POST">
         Name: <input type="text" name="name" placeholder="<%=site.name%>" /><br/>
-        Location: <input type="text" name="location" placeholder="<%=site.location%>"/><br/>
+        City: <input type="text" name="city" placeholder="<%=site.city%>"/><br/>
+        Country: <input type="text" name="country" placeholder="<%=site.country%>"/><br/>
         Date: <input type="date" name="date" placeholder="<%=site.date%>"/><br/>
         Image URL: <input type="text" name="img" placeholder="<%=site.img%>"/><br/>
         Buddies: <input type="string" name="buddies" placeholder="<%=site.buddies%>"/><br/>

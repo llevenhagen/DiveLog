@@ -46,6 +46,22 @@ router.get('/new', (req, res)=> {
     currentUser: req.session.currentUser
   });
 })
+router.get('/usa', (req, res)=> {
+  Sites.find({country: "USA"}, (err, usaSites)=> {
+    res.render('logbook.ejs', {
+      sites: usaSites,
+      currentUser: req.session.currentUser
+    })
+  });
+})
+router.get('/honduras', (req, res)=> {
+  Sites.find({country: "Honduras"}, (err, hondurasSites)=> {
+    res.render('logbook.ejs', {
+      sites: hondurasSites,
+      currentUser: req.session.currentUser
+    })
+  });
+})
 router.post('/logbook', (req, res)=> {
   console.log(req.body);
   Sites.create(req.body, (err, createSite)=> {
@@ -78,7 +94,7 @@ router.delete('/:id', (req, res)=> {
     res.redirect('/logbook')
   })
 })
-//Seed Data:
+// Seed Data:
 // Sites.create(siteSeed, (err, data)=> {
 //   if (err) {
 //     console.log(err.message);

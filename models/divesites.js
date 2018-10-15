@@ -3,7 +3,8 @@ const mongoose = require('mongoose');
 const siteSchema = new mongoose.Schema({
   img: String,
   date: Date,
-  location: String,
+  city: String,
+  country: String,
   name: String,
   buddies: [String],
   weather: String,
