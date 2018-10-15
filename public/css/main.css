@@ -317,7 +317,14 @@ td a:hover {
 
   /* text-decoration: underline; */
 }
-
+.countries {
+  background: #0A064B;
+  width: 85%;
+  margin-left: 7.5%;
+  font-size: 15px;
+  margin:-20px auto;
+  font-family: 'Peddana', serif;
+}
 
 /*
 font-family: 'Rock Salt', cursive;
