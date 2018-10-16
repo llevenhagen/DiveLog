@@ -11,7 +11,7 @@ color: #0A064B;
 
 }
 form {
-  width: 49.81%;
+  width: 530px;
   padding: 15px 50px;
   margin-left: 20%;
   font-size: 20px;
@@ -22,7 +22,7 @@ form {
 }
 .container {
   background: #22B9BE;
-  width: 84.6%;
+  width: 82.5vw;
   margin-left: 7.7%;
   padding-top: 10px;
   padding-bottom: 20px;
@@ -37,10 +37,15 @@ input, .login{
   color: var(--darkcoral);
   background: #E1E7E7;
 }
- header {
-  width: 85%;
+
+header {
+  border-radius: 20px;
+  width: 79.7vw;
   margin-left: 7.5%;
-  margin-bottom: -16px;
+  margin-bottom: -18px;
+}
+.log-in-header {
+  width: 80.95vw;
 }
 h1 {
   text-align: center;
@@ -51,7 +56,7 @@ h1 {
   margin-bottom: -12px;
   margin-left: 20%;
   background: #BCF7E6;
-  width: 59.3%;
+  width: 630px;
   border-radius: 10px 10px 0 0;
 }
 p {
@@ -98,14 +103,9 @@ button > a {
   letter-spacing: 1px;
   font-weight: 700;
 }
-header {
-  border-radius: 20px;
-  width: 85%;
-  margin-left: 7.5%;
-}
 
 ul {
-  width: 96.7%;
+  width: 100%;
   padding-left: 20px;
   border: 2px solid #0A064B;
   text-align: center;
