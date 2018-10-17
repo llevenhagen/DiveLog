@@ -110,8 +110,6 @@ ul {
   border: 2px solid #0A064B;
   text-align: center;
   background: var(--babypowder);
-
-  /* border-radius: 5px 5px 0 0; */
 }
 li {
   display: inline-block;
@@ -165,7 +163,22 @@ input[class="hover-switch"]:hover {
   background: var(--babypowder);
   color: #40569A;
 }
-
+footer {
+  color: white;
+  margin-left: 20px;
+  margin-top: 140px;
+  /* margin-bottom: -200px; */
+}
+.log-in-form {
+  margin-bottom: 100px;
+}
+.sign-up-header {
+  width: 80.9vw;
+}
+#body footer p {
+  margin-top: -100px;
+  margin-bottom
+}
 /*
 font-family: 'Rock Salt', cursive;
 font-family: 'Fugaz One', cursive;

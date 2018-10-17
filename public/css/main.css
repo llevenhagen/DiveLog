@@ -326,6 +326,11 @@ td a:hover {
   font-family: 'Peddana', serif;
 }
 
+footer {
+  margin-left: 20px;
+  margin-top: 30px;
+  margin-bottom: -20px;
+}
 /*
 font-family: 'Rock Salt', cursive;
 font-family: 'Fugaz One', cursive;

@@ -21,12 +21,13 @@
     </header>
     <div class="container">
     <h1 class="login-h1">Log In</h1>
-    <form action="/sessions" method="POST">
+    <form class="log-in-form" action="/sessions" method="POST">
       Username: <input type="text" name="username" required /><br />
       Password: <input type="password" name="password" required /><br />
       <input class="submit" type="submit" />
     </form>
   </div>
+  <% include ../../partials/footer.ejs %>
 </body>
 
 </html>

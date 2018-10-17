@@ -132,6 +132,7 @@ img {
   border-radius: 5px;
   box-shadow: -1px 1px 31px 10px var(--paynesgrey);
 }
+
 input, .login {
   letter-spacing: 1px;
   font-weight: 700;
@@ -180,7 +181,7 @@ input, .login {
   margin-left: 30%;
 }
 .button {
-  margin: 20px 50px 40px;
+  margin: 20px 50px -10px;
 }
 /*  hover settings*/
 nav a:hover {
@@ -197,7 +198,15 @@ input[class="button"]:hover, a[class="submit"]:hover{
   background: var(--babypowder);
   color: var(--darkcoral);
 }
-
+footer p{
+  background: #0A064B;
+  border-bottom: none;
+  color: var(--babypowder);
+  margin-left: 1px;
+  margin-top: 40px;
+  margin-bottom: -20px;
+  /* margin-bottom: -200px; */
+}
 /*
 font-family: 'Rock Salt', cursive;
 font-family: 'Fugaz One', cursive;

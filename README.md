@@ -33,8 +33,10 @@ I spent a lot of time on the CSS for this project, working on the color combinat
 
 ### How I'd like to improve:
 I tried pretty hard to make the website responsive to resizing, but unfortunately couldn't get the header and container on each page to coordinate when changing sizes. I would love to focus more in the future on mobile responsive sizing etc.
+### Further development:
+I would like to refine this website and make it specific to my Aunt and Uncle's dive travel business. The website would be repurposed to only allow them to log in and record dives their group does on the trips they've plannes, so that prospective clients can peruse photos and details etc to see if this trip is for them. Rather than US/Honduras dive sites, the website would feature Honduras and Bali (their two destinations).
 
-** Things I learned:
+**Things I learned:**
 This project gave me much further understanding about CRUD apps and Mongo, and I was able to refine my css skills as well. Just like the first project, I'm very proud of what I accomplished.
 
 ** How I would like to improve the current site:
