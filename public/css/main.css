@@ -18,10 +18,10 @@ header {
 
 h1 {
   color: #BCF7E6;
-  font-size: 40px;
+  font-size: 3.5vw;
   width: 84.65%;
   margin-left: 7.5%;
-  margin-top: -20px;
+  margin-top: -1.5vw;
   border-radius: 0;
   background: #F9BF13;
   border-left: 2px solid #0A064B;
@@ -34,7 +34,7 @@ h1 {
 }
 
 ul {
-  padding-top: 10px;
+  padding-top: .8vw;
   border: 2px solid #0A064B;
   text-align: center;
   background: var(--babypowder);
@@ -43,8 +43,8 @@ ul {
 li {
   display: inline-block;
   font-family: 'Peddana', serif;
-  font-size: 35px;
-  margin: auto 30px;
+  font-size: 2.8vw;
+  margin: auto 3vw;
 }
 
 a {
@@ -53,18 +53,18 @@ a {
 }
 
 input, .login {
-  letter-spacing: 1px;
+  letter-spacing: .15vw;
   font-weight: 700;
   font-family: 'Peddana', serif;
-  font-size: 24px;
+  font-size: 2.4vw;
   border: 1px solid black;
   border-radius: 5px;
-  padding: 0 30px;
+  padding: 0 2.5vw;
 }
 
 /*  This is where the log book page css starts:*/
 img {
-  max-height: 200px;
+  max-height: 40vw;
   width: 100%;
   border-radius: 1px;
   /* box-shadow: 11px 3px 50px -13px var(--columbiablue); */
@@ -81,7 +81,7 @@ img {
   /* margin: auto 100px; */
   padding: 2% 1% 2% 1.5%;
   margin-left: 7.5%;
-  margin-top: -27px;
+  margin-top: -2.4vw;
   width: 82.5%;
 }
 
@@ -93,34 +93,34 @@ img {
   text-align: center;
   color: var(--babypowder);
   background: var(--darkcoral);
-  padding: 2px 10px;
-  width: 100.3%;
-  margin-left: -11px;
-  margin-top: -1px;
-  border-radius: 2px;
-  letter-spacing: 2px;
-  font-size: 30px;
+  padding: 2% 3.8%;
+  width: 100.4%;
+  margin-left: -.9vw;
+  margin-top: -.5vw;
+  border-radius: 2px 2px 0px 0px;
+  letter-spacing: .3vw;
+  font-size: 2.3vw;
   font-family: 'Peddana', serif;
 }
 
 .single h4 {
-  margin-bottom: -8px;
-  margin-top: -15px;
+  margin-bottom: -.7vw;
+  margin-top: -1.2vw;
   color: #020313;
-  font-size: 20px;
+  font-size: 1.5vw;
 }
 
 .single h5 {
   color: #40569A;
-  margin-bottom: 25px;
-  font-size: 15px;
+  margin-bottom: 2vw;
+  font-size: 1.2vw;
 }
 
 .single {
   background: var(--babypowder);
-  height: 440px;
+  height: 35vw;
   width: 27%;
-  margin: 30px 20px;
+  margin: 2.3vw 1.6vw;
   border-radius: 5px;
   /* box-shadow: 11px 3px 99px -13px var(--babypowder); */
   padding: 0 1% 1.5% 1%;
@@ -128,59 +128,61 @@ img {
   font-family: 'Manuale', serif;
 }
 
-.img {
+.img img{
   text-align: center;
-  height: 210px;
+  height: 16vw;
 }
 
-.more {
+/* .more {
   margin-top: 10px;
   margin-left: 5%;
   font-size: 20px;
   border: 1px solid black;
   padding-left: 10%;
   width: 43%;
-}
+} */
 
 .login {
-  font-size: 14px;
-  padding: 5px 10px;
-  margin-left: 20px;
+  font-size: 1.2vw;
+  padding: .5vw 1vw;
+  margin-left: 2.5vw;
   color: #40569A;
   font-family: 'Shrikhand', cursive;
   font-weight: lighter;
 }
 
 .login-li {
+  font-size: 2vw;
   color: #40569A;
-  margin-right: -70px;
-  margin-left: 30px;
+  margin-right: -3vw;
+  margin-left: -1vw;
+  padding: 0 2vw;;
 }
 
 .login-signup-li {
-  margin-right: -10px;
-  margin-left: -10px;
+  margin-right: -1vw;
+  margin-left: -1vw;
 }
 
 .rate-text {
-  font-size: 30px;
+  font-size: 2vw;
   color: #020313;
   text-decoration: underline;
   font-family: 'Peddana', serif;
-  padding: 15px 0 0 0;
-  margin-left: 20px;
+  padding: 1.4vw 0 0 0;
+  margin-left: 1.5vw;
 }
 
 .rating h3 {
   background: none;
   color: #40569A;
   background: var(--babypowder);
-  width: 40px;
+  width: 3vw;
   font-family: 'Peddana', serif;
-  font-size: 20px;
-  margin-left: 110px;
-  margin-top: -17px;
-  padding: 3px 10px;
+  font-size: 1.5vw;
+  margin-left: 8.5vw;
+  margin-top: -1.2vw;
+  padding: .3vw 1vw;
   border: .5px solid #F9BF13;
   border-radius: 15px;
 }
@@ -200,7 +202,7 @@ img {
   background: url("/images/P9100911.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 470px;
+  height: 36.5vw;
   width: 50%;
 }
 
@@ -210,7 +212,7 @@ img {
   background: url("/images/PA05E0271.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 470px;
+  height: 36.5vw;
   width: 50%;
 }
 
@@ -228,9 +230,9 @@ img {
   color: var(--babypowder);
   font-family: 'Peddana', serif;
   font-weight: bold;
-  font-size: 45px;
+  font-size: 3.51vw;
   background: var(--darkcoral);
-  margin-top: -4px;
+  margin-top: -.3vw;
   padding-left: 7%;
   width: 35.17%;
   border-bottom: 2px solid #0A064B;
