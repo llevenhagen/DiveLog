@@ -34,6 +34,7 @@ h1 {
 }
 
 ul {
+  margin-top: 2.5vw;
   padding-top: .8vw;
   border: 2px solid #0A064B;
   text-align: center;
@@ -64,8 +65,7 @@ input, .login {
 
 /*  This is where the log book page css starts:*/
 img {
-  max-height: 40vw;
-  width: 100%;
+  height: 12.56vw;
   border-radius: 1px;
   /* box-shadow: 11px 3px 50px -13px var(--columbiablue); */
   border: 1px solid #BCF7E6;
@@ -118,7 +118,7 @@ img {
 
 .single {
   background: var(--babypowder);
-  height: 35vw;
+  height: 36vw;
   width: 27%;
   margin: 2.3vw 1.6vw;
   border-radius: 5px;
@@ -131,6 +131,7 @@ img {
 .img img{
   text-align: center;
   height: 16vw;
+    width: 100%;
 }
 
 /* .more {
@@ -256,8 +257,8 @@ img {
 }
 
 table {
-  margin-top: -27px;
-  padding-top: 20px;
+  margin-top: -2.4vw;
+  padding-top: 1.56vw;
   padding-left: 5%;
   width: 100%;
   background: var(--babypowder);
@@ -267,17 +268,18 @@ table {
 
 th {
   color: #40569A;
-  padding: 10px 10px;
+  padding: 1.5vw .78vw .1vw;
   text-decoration: underline;
   font-family: 'Peddana', serif;
-  font-size: 27px;
+  font-size: 2.3vw;
   border-right: 1px solid #020313;
 }
 
 td {
+  height: 24vw;
   font-family: 'Manuale', serif;
-  font-size: 20px;
-  padding: 10px 15px;
+  font-size: 1.56vw;
+  padding: .78vw 1.17vw;
   border-right: 1px solid #020313;
 }
 
@@ -285,6 +287,7 @@ table, th, td {
   border-collapse: collapse;
 }
 tr img {
+  margin-top: -3.5vw;
   border: none;
 }
 /* Hover effects: */
@@ -323,15 +326,15 @@ td a:hover {
   background: #0A064B;
   width: 85%;
   margin-left: 7.5%;
-  font-size: 15px;
-  margin:-20px auto;
+  font-size: 1.17vw;
+  margin:-1.56vw auto;
   font-family: 'Peddana', serif;
 }
 
 footer {
-  margin-left: 20px;
-  margin-top: 30px;
-  margin-bottom: -20px;
+  margin-left: 1.56vw;
+  margin-top: 2.34vw;
+  margin-bottom: -1.56vw;
 }
 /*
 font-family: 'Rock Salt', cursive;

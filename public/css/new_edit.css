@@ -11,38 +11,40 @@ color: #0A064B;
 
 }
 form {
-  width: 530px;
-  padding: 15px 50px;
+  width: 41.45vw;
+  padding: 1.17vw 3.91vw;
   margin-left: 20%;
-  font-size: 20px;
+  font-size: 1.56vw;
   text-decoration: underline;
   font-family: 'Fugaz One', cursive;
   background: var(--babypowder);
+  border-radius: 0 0 5px 5px;
 
 }
 .container {
   background: #22B9BE;
   width: 82.5vw;
   margin-left: 7.7%;
-  padding-top: 10px;
-  padding-bottom: 20px;
+  padding-top: .78vw;
+  padding-bottom: 1.56vw;
+  border-radius: 0 0 7px 7px;
 }
 input, .login{
-  margin-top: 10px;
+  margin-top: .78vw;
   padding: 2px;
   width: 100%;
   line-height: 100%;
-  font-size: 20px;
+  font-size: 1.56vw;
   font-family: 'Manuale', serif;
   color: var(--darkcoral);
   background: #E1E7E7;
 }
 
 header {
-  border-radius: 20px;
   width: 79.7vw;
   margin-left: 7.5%;
-  margin-bottom: -18px;
+  margin-top: 2.5vw;
+  margin-bottom: -1.4vw;
 }
 .log-in-header {
   width: 80.95vw;
@@ -51,33 +53,33 @@ h1 {
   text-align: center;
   font-family: 'Shrikhand', cursive;
   font-style: italic;
-  font-size: 40px;
+  font-size: 3.129vw;
   color: #F9BF13;
-  margin-bottom: -12px;
+  margin-bottom: -.93vw;
   margin-left: 20%;
   background: #BCF7E6;
-  width: 630px;
-  border-radius: 10px 10px 0 0;
+  width: 49.24vw;
+  border-radius: .78vw .78vw 0 0;
 }
 p {
   margin-left: 40px;
   font-family: 'Peddana', serif;
-  font-size: 25px;
+  font-size: 1.95vw;
 }
 
 .submit {
   width: 30%;
   margin-left: 35%;
   background: var(--babypowder);
-  font-size: 18px;
-  letter-spacing: 1px;
+  font-size: 1.4vw;
+  letter-spacing: .078vw;
   font-weight: 700;
   font-family: 'Fugaz One', cursive;
-  font-size: 24px;
+  font-size: 1.87vw;
   border: 1px solid black;
   border-radius: 5px;
-  padding:  7px 20px;
-  margin-top: 20px;
+  padding:  .58vw 1.56vw;
+  margin-top: 1.56vw;
 }
 .login-h1 {
   margin-bottom: 0;
@@ -88,25 +90,26 @@ a {
 }
 
 button, .login{
-  letter-spacing: 1px;
+  letter-spacing: .078vw;
   font-weight: 700;
   font-family: 'Peddana', serif;
-  font-size: 24px;
+  font-size: 2.11vw;
   border: 1px solid black;
   border-radius: 5px;
-  padding: 0 30px;
+  padding: 0 2.34vw;
 }
 button > a {
   color: black;
   font-family: 'Peddana', serif;
-  font-size: 24px;
+  font-size: 1.87vw;
   letter-spacing: 1px;
   font-weight: 700;
 }
 
 ul {
+  border-radius: 7px 7px 0 0;
   width: 100%;
-  padding-left: 20px;
+  padding-left: 1.56vw;
   border: 2px solid #0A064B;
   text-align: center;
   background: var(--babypowder);
@@ -114,14 +117,14 @@ ul {
 li {
   display: inline-block;
   font-family: 'Peddana', serif;
-  font-size: 35px;
-  margin: auto 30px;
+  font-size: 2.73vw;
+  margin: auto 2.34vw;
 }
 .login {
   border: 1px solid black;
-  font-size: 14px;
-  padding: 5px 10px;
-  margin-left: 20px;
+  font-size: 1.09vw;
+  padding: .39vw .78vw;
+  margin-left: 1.56vw;
   color: #40569A;
   font-family: 'Shrikhand', cursive;
   font-weight: lighter;
@@ -130,8 +133,8 @@ li {
   letter-spacing: 1px;
   font-weight: 700;
   font-family: 'Peddana', serif;
-  font-size: 24px;
-  padding: 7px 40px;
+  font-size: 1.87vw;
+  padding: .54vw 3.12vw;
   border: 1px solid black;
   color: #40569A;
   background: var(--babypowder);
@@ -142,11 +145,11 @@ li {
 .logout-form {
   width: 90%;
   margin: 0;
-  margin-left: -23.5px;
+  margin-left: -1.838vw;
 }
 .login-signup-li {
-  margin-right: -10px;
-  margin-left: -10px;
+  margin-right: -.78vw;
+  margin-left: -.78vw;
 }
 /*  hover events*/
 nav a:hover {
@@ -165,19 +168,19 @@ input[class="hover-switch"]:hover {
 }
 footer {
   color: white;
-  margin-left: 20px;
-  margin-top: 140px;
+  margin-left: 1.56vw;
+  margin-top: 10.95vw;
   /* margin-bottom: -200px; */
 }
 .log-in-form {
-  margin-bottom: 100px;
+  margin-bottom: 7.82vw;
 }
 .sign-up-header {
-  width: 80.9vw;
+  width: 6.33vw;
 }
 #body footer p {
-  margin-top: -100px;
-  margin-bottom
+  margin-top: -7.82;
+  /* margin-bottom */
 }
 /*
 font-family: 'Rock Salt', cursive;

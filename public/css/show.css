@@ -7,29 +7,45 @@
 }
 body {
   background: #0A064B;
-  padding-bottom: 20px;
+  padding-bottom: 2vw;
 }
 a {
   text-decoration: none;
   color: #DD503A;
 }
-
-input, button, .login{
-  letter-spacing: 1px;
-  font-weight: 700;
-  font-family: 'Peddana', serif;
-  font-size: 24px;
-  border: 1px solid black;
-  border-radius: 5px;
-  padding: 0 30px;
-}
 button > a {
   color: black;
   font-family: 'Peddana', serif;
-  font-size: 24px;
+  font-size: 2vw;
   letter-spacing: 1px;
   font-weight: 700;
 }
+input {
+  letter-spacing: .15vw;
+  font-weight: 700;
+  font-family: 'Peddana', serif;
+  font-size: 2.4vw;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 0 2vw;
+}
+input[class="button"]{
+  letter-spacing: 0;
+  border: none;
+  padding: 0;
+}
+
+
+button,  .login{
+  letter-spacing: .15vw;
+  font-weight: 700;
+  font-family: 'Peddana', serif;
+  font-size: 2.4vw;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 0 2vw;
+}
+
 header {
   border-radius: 20px;
   width: 85%;
@@ -37,23 +53,22 @@ header {
 }
 h1 {
   text-align: center;
-  margin-top: 40px;
-  margin-bottom: -20px;
-  padding-top: 30px;
+  margin-top: 3vw;
+  margin-bottom: -1.8vw;
+  padding-top: 1vw;
 font-family: 'Shrikhand', cursive;
-  font-size: 45px;
+  font-size: 3.7vw;
   letter-spacing: 1px;
  color: #BCF7E6;
   background: #40569A;
-  padding-bottom: 20px;
+  padding-bottom: 1.5vw;
   border-bottom: 5px solid #F9BF13;
   /* text-decoration: underline; */
 }
 
 ul {
-  margin-top: 22px;
-  padding-top: 10px;
-  /* border-lef: 2px solid #0A064B; */
+  margin-top: 1.3vw;
+  padding-top: .6vw;
   text-align: center;
   background: var(--babypowder);
   border-radius: 5px 5px 0 0;
@@ -61,8 +76,8 @@ ul {
 li {
   display: inline-block;
   font-family: 'Peddana', serif;
-  font-size: 35px;
-  margin: auto 30px;
+  font-size: 2.8vw;
+  margin: auto 3vw;
 }
 
 /*  This is where the log book page css starts:*/
@@ -71,38 +86,35 @@ li {
   width: 85%;
   background-image: url("../../images/dimension.png");
   /* background: var(--columbiablue); */
-  margin-top: -40px;
+  margin-top: -3.2vw;
   margin-left: 7.5%;
-  padding-bottom: 20px;
+  padding-bottom: 2vw;
   border-radius: 5px;
 }
 
 h2, h4 {
-  margin-bottom: -10px;
+  margin-bottom: -1vw;
   text-align: center;
   font-family: 'Manuale', serif;
 }
 h2 {
   color:#13224E;
-  font-size: 30px;
+  font-size: 2.3vw;
 }
 h4 {
-  font-size: 18px;
+  font-size: 1.4vw;
   color: #2732C3;
 }
 h5 {
-  font-size: 20px;
-}
-p {
-  font-size: 15px;
+  font-size: 1.6vw;
 }
 .img {
-  margin-top: 50px;
+  margin-top: 3.8vw;
   text-align: center;
 }
 .site-stats {
   text-align: left;
-  margin: 30px auto;
+  margin: 2vw auto;
 }
 table {
   padding-left: 0;
@@ -115,11 +127,11 @@ th, h5{
 }
 p {
   font-family: 'Peddana', serif;
-  font-size: 27px;
-  width: 450px;
+  font-size: 2.7vw;
+  width: 45vw;
   background: var(--babypowder);
-  line-height: 150%;
-  margin-left: 40px;
+  line-height: 140%;
+  margin-left: 4.1vw;
   text-align: center;
   border-bottom: 1.5px solid var(--darkcoral);
   border-radius: 3px;
@@ -137,29 +149,32 @@ input, .login {
   letter-spacing: 1px;
   font-weight: 700;
   font-family: 'Peddana', serif;
-  font-size: 24px;
+  font-size: 2.1vw;
   border: 1px solid black;
   border-radius: 5px;
-  padding: 0 30px;
+  padding: 0 1.7vw;
 }
 .login {
-  font-size: 14px;
-  padding: 5px 10px;
-  margin-left: 20px;
+  font-size: 1.2vw;
+  padding: .5vw 1vw;
+  margin-left: 2.5vw;
   color: #40569A;
   font-family: 'Shrikhand', cursive;
   font-weight: lighter;
 }
 .login-li {
+  font-size: 2vw;
   color: #40569A;
-  margin-right: -70px;
-  margin-left: 30px;
+  margin-right: -3vw;
+  margin-left: -1vw;
+  padding: 0 2vw;;
 }
 .login-signup-li {
-  margin-right: -20px;
+  margin-right: -1vw;
+  margin-left: -1vw;
 }
 .comments {
-  margin-top: -20px;
+  margin-top: -2.1vw;
   text-align: center;
   margin-left: 2%;
 }
@@ -168,21 +183,21 @@ input, .login {
 }
 .comments p {
   width: 80%;
-  margin-left: 100px;
+  margin-left: 7.8vw;;
   border-radius: 3px;
 }
 .rate {
   color: var(--wintergreen);
-  margin-top: -20px;
+  margin-top: -1.9vw;
 }
 
 .buttons {
   display: inline-flex;
-  margin-left: 30%;
+  margin-left: 35%;
+  width: 30%;
+  justify-content: space-between;
 }
-.button {
-  margin: 20px 50px -10px;
-}
+
 /*  hover settings*/
 nav a:hover {
   cursor: pointer;
@@ -202,9 +217,9 @@ footer p{
   background: #0A064B;
   border-bottom: none;
   color: var(--babypowder);
-  margin-left: 1px;
-  margin-top: 40px;
-  margin-bottom: -20px;
+  margin-left: -2vw;
+  margin-top: 2vw;
+  margin-bottom: -1.3vw;
   /* margin-bottom: -200px; */
 }
 /*
