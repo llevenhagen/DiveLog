@@ -23,11 +23,16 @@ form {
 }
 .container {
   background: #22B9BE;
+  height: 37vw;
   width: 82.5vw;
   margin-left: 7.7%;
-  padding-top: .78vw;
+  padding-top: 1vw;
   padding-bottom: 1.56vw;
   border-radius: 0 0 7px 7px;
+}
+.add-container {
+  height: 100vw;
+  width: 81.27vw;
 }
 input, .login{
   margin-top: .78vw;
@@ -42,7 +47,7 @@ input, .login{
 
 header {
   width: 79.7vw;
-  margin-left: 7.5%;
+  margin-left: 7.7%;
   margin-top: 2.5vw;
   margin-bottom: -1.4vw;
 }
@@ -107,10 +112,11 @@ button > a {
 }
 
 ul {
+  display: inline-flex;
   border-radius: 7px 7px 0 0;
   width: 100%;
   padding-left: 1.56vw;
-  border: 2px solid #0A064B;
+  border-bottom: 2px solid #BCF7E6;
   text-align: center;
   background: var(--babypowder);
 }
@@ -169,14 +175,15 @@ input[class="hover-switch"]:hover {
 footer {
   color: white;
   margin-left: 1.56vw;
-  margin-top: 10.95vw;
+  margin-top: 1vw;
   /* margin-bottom: -200px; */
 }
 .log-in-form {
   margin-bottom: 7.82vw;
 }
 .sign-up-header {
-  width: 6.33vw;
+  width: 80.9vw;
+  margin-bottom: -1.5vw;
 }
 #body footer p {
   margin-top: -7.82;
