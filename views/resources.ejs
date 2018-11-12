@@ -1,34 +1,45 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Dive Log</title>
-    <link href="https://fonts.googleapis.com/css?family=Fugaz+One|Rock+Salt|Shrikhand" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Manuale|Peddana|Rubik+Mono+One|Sail" rel="stylesheet">
-    <link rel="stylesheet" href="css/main.css"/>
-  </head>
-  <body>
-    <header>
+
+<head>
+  <meta charset="utf-8">
+  <title>Dive Log</title>
+  <link href="https://fonts.googleapis.com/css?family=Fugaz+One|Rock+Salt|Shrikhand" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Manuale|Peddana|Rubik+Mono+One|Sail" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body id="resource">
+  <header>
     <% include ../partials/header.ejs %>
   </header>
-<h1>Additional Resources</h1>
-<div class="resource-main">
-  <table>
-    <tr>
-      <th>Want to get Certified?</th>
-      <th>Got Questions?</th>
-      <th>Need Equipment?</th>
-      <th>Need a Vacation?</th>
-    </tr>
-    <tr>
-      <td><img src="images/padi-logo.png"/><br/>
-        <a href="https://www.padi.com/education">PADI has got you covered!</td>
-      <td><img src="images/diver-questions.png"/><br/><a href="https://www.reddit.com/r/scuba/">reddit has got your back!</td>
-      <td><img src="images/tech-divers.jpg"/><br/><a href="https://www.divers-supply.com/scuba-gear.html">Take a Look Here</a><br/><a href="https://www.leisurepro.com/c/Scuba">Or Here</a></td>
-      <td><img src="images/DSC_9802.jpeg"/><br/><a href="https://www.facebook.com/TheDivingEnthusiast/">Central Oregon Dive Travel is the way to go!</a></td>
-    </tr>
-  </table>
-</div>
-<% include ../partials/footer.ejs %>
-  </body>
+  <h1 class="resource-or-log-h1">Additional Resources</h1>
+  <div class="resource-main">
+      <div class="table">
+        <div class="tr">
+          <p class="th">Want to get Certified?</p>
+          <div class="td"><img src="images/padi-logo.png" /><br />
+            <a href="https://www.padi.com/education">PADI has got you covered!</a>
+            </div>
+          </div>
+        <div class="tr">
+          <p class="th">Got Questions?</p>
+          <div class="td"><img src="images/diver-questions.png" /><br /><a href="https://www.reddit.com/r/scuba/">reddit has got your back!</a>
+          </div>
+          </div>
+          <div class="tr">
+            <p class="th">Need Equipment?</p>
+            <div="td"><img src="images/tech-divers.jpg" /><br /><a href="https://www.divers-supply.com/scuba-gear.html">Take a Look Here</a><br /><a href="https://www.leisurepro.com/c/Scuba">Or Here</a>
+          </div>
+          <div class="tr">
+            <p class="th">Need a Vacation?</p>
+            <div class="td"><img src="images/DSC_9802.jpeg" /><br /><a href="https://www.facebook.com/TheDivingEnthusiast/">Central Oregon Dive Travel is the way to go!</a>
+            </div>
+          </div>
+      </div>
+    </div>
+    </div>
+    <% include ../partials/footer.ejs %>
+</body>
+
 </html>

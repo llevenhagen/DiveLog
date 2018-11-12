@@ -5,67 +5,21 @@
 --paynesgrey: #21333C;
 --columbiablue: #C2E1F1;
 }
+/* SHOW PAGE */
 body {
   background: #0A064B;
   padding-bottom: 2vw;
 }
+/* NAV BAR */
 a {
   text-decoration: none;
   color: #DD503A;
 }
-button > a {
-  color: black;
-  font-family: 'Peddana', serif;
-  font-size: 2vw;
-  letter-spacing: 1px;
-  font-weight: 700;
-}
-input {
-  letter-spacing: .15vw;
-  font-weight: 700;
-  font-family: 'Peddana', serif;
-  font-size: 2.4vw;
-  border: 1px solid black;
-  border-radius: 5px;
-  padding: 0 2vw;
-}
-input[class="button"]{
-  letter-spacing: 0;
-  border: none;
-  padding: 0;
-}
-
-
-button,  .login{
-  letter-spacing: .15vw;
-  font-weight: 700;
-  font-family: 'Peddana', serif;
-  font-size: 2.4vw;
-  border: 1px solid black;
-  border-radius: 5px;
-  padding: 0 2vw;
-}
-
 header {
   border-radius: 20px;
   width: 85%;
   margin-left: 7.5%;
 }
-h1 {
-  text-align: center;
-  margin-top: 3vw;
-  margin-bottom: -1.8vw;
-  padding-top: 1vw;
-font-family: 'Shrikhand', cursive;
-  font-size: 3.7vw;
-  letter-spacing: 1px;
- color: #BCF7E6;
-  background: #40569A;
-  padding-bottom: 1.5vw;
-  border-bottom: 5px solid #F9BF13;
-  /* text-decoration: underline; */
-}
-
 ul {
   margin-top: 1.3vw;
   padding-top: .6vw;
@@ -79,72 +33,7 @@ li {
   font-size: 2.8vw;
   margin: auto 3vw;
 }
-
-/*  This is where the log book page css starts:*/
-
-.container {
-  width: 85%;
-  background-image: url("../../images/dimension.png");
-  /* background: var(--columbiablue); */
-  margin-top: -3.2vw;
-  margin-left: 7.5%;
-  padding-bottom: 2vw;
-  border-radius: 5px;
-}
-
-h2, h4 {
-  margin-bottom: -1vw;
-  text-align: center;
-  font-family: 'Manuale', serif;
-}
-h2 {
-  color:#13224E;
-  font-size: 2.3vw;
-}
-h4 {
-  font-size: 1.4vw;
-  color: #2732C3;
-}
-h5 {
-  font-size: 1.6vw;
-}
-.img {
-  margin-top: 3.8vw;
-  text-align: center;
-}
-.site-stats {
-  text-align: left;
-  margin: 2vw auto;
-}
-table {
-  padding-left: 0;
-  margin-left: 2%;
-}
-th, h5{
-  text-align: right;
-  text-decoration: underline;
-  font-family: 'Manuale', serif;
-}
-p {
-  font-family: 'Peddana', serif;
-  font-size: 2.7vw;
-  width: 45vw;
-  background: var(--babypowder);
-  line-height: 140%;
-  margin-left: 4.1vw;
-  text-align: center;
-  border-bottom: 1.5px solid var(--darkcoral);
-  border-radius: 3px;
-
-}
-img {
-  text-align: center;
-  width: 50%;
-  border-radius: 1px;
-  border-radius: 5px;
-  box-shadow: -1px 1px 31px 10px var(--paynesgrey);
-}
-
+/* LOGIN/LOGOUT BUTTONS TOP RIGHT */
 input, .login {
   letter-spacing: 1px;
   font-weight: 700;
@@ -173,6 +62,93 @@ input, .login {
   margin-right: -1vw;
   margin-left: -1vw;
 }
+
+/* SHOW PAGE H1 TITLE */
+h1 {
+  text-align: center;
+  margin-top: 3vw;
+  margin-bottom: -1.8vw;
+  padding-top: 1vw;
+  font-family: 'Shrikhand', cursive;
+  font-size: 3.7vw;
+  letter-spacing: 1px;
+  color: #BCF7E6;
+  background: #40569A;
+  padding-bottom: 1.5vw;
+  border-bottom: 5px solid #F9BF13;
+}
+
+/* show page site container */
+
+.container {
+  width: 85%;
+  background-image: url("../../images/dimension.png");
+  margin-top: -3.2vw;
+  margin-left: 7.5%;
+  padding-bottom: 2vw;
+  border-radius: 5px;
+}
+/* SHOW PAGE CITY AND DATE */
+h2, h4 {
+  margin-bottom: -1vw;
+  text-align: center;
+  font-family: 'Manuale', serif;
+}
+/* CITY */
+h4 {
+  font-size: 1.4vw;
+  color: #2732C3;
+}
+/* DATE */
+h2 {
+  color:#13224E;
+  font-size: 2.3vw;
+}
+/* SHOW PAGE IMAGE */
+img {
+  text-align: center;
+  width: 50%;
+  border-radius: 1px;
+  border-radius: 5px;
+  box-shadow: -1px 1px 31px 10px var(--paynesgrey);
+}
+.img {
+  margin-top: 3.8vw;
+  text-align: center;
+}
+/* .site-stats {
+  text-align: left;
+  margin: 2vw auto;
+} */
+/* STATS TABLE */
+table {
+  padding-left: 0;
+  margin-left: 2%;
+}
+/* CATEGORY NAMES */
+h5 {
+  font-size: 1.6vw;
+}
+th, h5{
+  text-align: right;
+  text-decoration: underline;
+  font-family: 'Manuale', serif;
+}
+
+/* STATS INFO*/
+p {
+  font-family: 'Peddana', serif;
+  font-size: 2.7vw;
+  width: 45vw;
+  background: var(--babypowder);
+  line-height: 140%;
+  margin-left: 4.1vw;
+  text-align: center;
+  border-bottom: 1.5px solid var(--darkcoral);
+  border-radius: 3px;
+
+}
+/* ADDITIONAL COMMENTS */
 .comments {
   margin-top: -2.1vw;
   text-align: center;
@@ -186,18 +162,60 @@ input, .login {
   margin-left: 7.8vw;;
   border-radius: 3px;
 }
+/* SHOW PAGE RATING */
 .rate {
   color: var(--wintergreen);
   margin-top: -1.9vw;
 }
 
+/* EDIT DIVE BUTTON */
+button > a {
+  color: black;
+  font-family: 'Peddana', serif;
+  font-size: 2vw;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+/* DELETE DIVE BUTTON */
+input {
+  letter-spacing: .15vw;
+  font-weight: 700;
+  font-family: 'Peddana', serif;
+  font-size: 2.4vw;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 0 2vw;
+}
+input[class="button"]{
+  letter-spacing: 0;
+  border: none;
+  padding: 0;
+}
 .buttons {
   display: inline-flex;
   margin-left: 35%;
   width: 30%;
   justify-content: space-between;
 }
-
+/* EDIT BUTTON and DELETE DIVE BUTTON  */
+button,  .login{
+  letter-spacing: .15vw;
+  font-weight: 700;
+  font-family: 'Peddana', serif;
+  font-size: 2.4vw;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 0 2vw;
+}
+/* FOOTER */
+footer p{
+  background: #0A064B;
+  border-bottom: none;
+  color: var(--babypowder);
+  margin-left: -2vw;
+  margin-top: 2vw;
+  margin-bottom: -1.3vw;
+}
 /*  hover settings*/
 nav a:hover {
   cursor: pointer;
@@ -213,15 +231,7 @@ input[class="button"]:hover, a[class="submit"]:hover{
   background: var(--babypowder);
   color: var(--darkcoral);
 }
-footer p{
-  background: #0A064B;
-  border-bottom: none;
-  color: var(--babypowder);
-  margin-left: -2vw;
-  margin-top: 2vw;
-  margin-bottom: -1.3vw;
-  /* margin-bottom: -200px; */
-}
+
 /*
 font-family: 'Rock Salt', cursive;
 font-family: 'Fugaz One', cursive;

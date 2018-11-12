@@ -8,33 +8,35 @@
 
   <link href="https://fonts.googleapis.com/css?family=Manuale|Peddana|Rubik+Mono+One|Sail" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css" />
-  <link rel="shortcut icon" type="image/jpg" href="images/PA05E0271.jpeg"/>
+  <link rel="shortcut icon" type="image/jpg" href="images/PA05E0271.jpeg" />
 </head>
 
 <body>
-  <header>
+  <div id="keep-in-line">
+     <header>
     <nav>
       <% include ../partials/header.ejs %>
     </nav>
-  </header>
-  <% if (currentUser) {%>
-  <h1 class="index">Welcome,
-    <%=currentUser.username%>
-  </h1>
-  <%} else {%>
-  <h1 class="index">Welcome, Diver!</h1>
-  <%}%>
-  <div class="main">
-    <div class="usa">
+    </header>
+    <% if (currentUser) {%>
+    <h1 class="welcome">Welcome,
+      <%=currentUser.username%>
+    </h1>
+    <%} else {%>
+    <h1 class="welcome">Welcome, Diver!</h1>
+    <%}%>
+    <div class="main">
+      <div class="usa">
+      </div>
+      <div class="honduras">
+      </div>
     </div>
-    <div class="honduras">
+    <div class="links">
+      <a class="u-logs" href="/usa">US Sites</a>
+      <a class="h-logs" href="/honduras">Honduras Sites</a>
     </div>
   </div>
-  <div class="links">
-  <a class="u-logs" href="/usa">US Sites</a>
-  <a class="h-logs" href="/honduras">Honduras Sites</a>
-</div>
-<% include ../partials/footer.ejs %>
+  <% include ../partials/footer.ejs %>
 </body>
 
 </html>

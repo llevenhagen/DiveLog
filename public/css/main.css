@@ -7,31 +7,16 @@
 }
 
 body {
+  min-width: 600px;
+  min-height: 700px;
   background-image: url("../../images/dimension.png");
 }
-
-header {
-  border-radius: 20px;
-  width: 85%;
-  margin-left: 7.5%;
-}
-
-h1 {
-  color: #BCF7E6;
-  font-size: 3.5vw;
-  width: 84.65%;
-  margin-left: 7.5%;
-  margin-top: -1.5vw;
-  border-radius: 0;
-  background: #F9BF13;
-  border-left: 2px solid #0A064B;
-  border-top: 1px solid #BCF7E6;
-  border-right: 2px solid #0A064B;
-  border-bottom: 5px solid #BCF7E6;
+#keep-in-line {
+  width: 90vw;
   text-align: center;
-  font-family: 'Rock Salt', cursive;
-  font-style: italic;
+  margin: auto;
 }
+/* NAV BAR */
 
 ul {
   margin-top: 2.5vw;
@@ -53,6 +38,7 @@ a {
   color: #DD503A;
 }
 
+/* NAV BAR LOGIN /SIGNUP  */
 input, .login {
   letter-spacing: .15vw;
   font-weight: 700;
@@ -63,14 +49,125 @@ input, .login {
   padding: 0 2.5vw;
 }
 
-/*  This is where the log book page css starts:*/
-img {
-  height: 12.56vw;
-  border-radius: 1px;
-  /* box-shadow: 11px 3px 50px -13px var(--columbiablue); */
-  border: 1px solid #BCF7E6;
+.login {
+  font-size: 1.2vw;
+  padding: .5vw 1vw;
+  margin-left: 2.5vw;
+  color: #40569A;
+  font-family: 'Shrikhand', cursive;
+  font-weight: lighter;
 }
 
+.login-li {
+  font-size: 2vw;
+  color: #40569A;
+  margin-right: -3vw;
+  margin-left: -1vw;
+  padding: 0 2vw;
+  ;
+}
+
+.login-signup-li {
+  margin-right: -1vw;
+  margin-left: -1vw;
+}
+
+/* HEADER */
+/* header {
+  border-radius: 20px;
+  width: 8%;
+  margin-left: 7.5%;
+} */
+
+/* TITLE */
+h1 {
+  color: #BCF7E6;
+  font-size: 3.5vw;
+  width: 99.6%;
+  border-radius: 0;
+  background: #F9BF13;
+  border-left: .2vw solid #0A064B;
+  border-top: .1vw solid #BCF7E6;
+  border-right: .2vw solid #0A064B;
+  border-bottom: .3vw solid #BCF7E6;
+  text-align: center;
+  font-family: 'Rock Salt', cursive;
+  font-style: italic;
+}
+/* MAIN IMAGES/LINKS */
+.main {
+  display: inline-flex;
+  width: 100%;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  /* margin-left: 7.5%; */
+  text-align: center;
+}
+.welcome {
+  margin-top: -1.45vw;
+  margin-bottom: 0px;
+}
+.usa {
+  border-right: 2px solid var(--babypowder);
+  border-left: 2px solid #0A064B;
+  background: url("/images/P9100911.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 36.5vw;
+  width: 50%;
+}
+
+.honduras {
+  border-left: 2px solid var(--babypowder);
+  border-right: 2px solid #0A064B;
+  background: url("/images/PA05E0271.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 36.5vw;
+  width: 50%;
+}
+
+.links {
+  margin-top: -.5vw;
+  display: inline-flex;
+  width: 99.65%;
+  justify-content: space-around;
+  color: var(--babypowder);
+  background: var(--darkcoral);
+  border-bottom: 2px solid #0A064B;
+  border-left: 2px solid #0A064B;
+  border-right: 2px solid #0A064B;
+}
+
+.links a {
+  font-family: 'Peddana', serif;
+  font-weight: bold;
+  font-size: 3.51vw;
+  margin-top: -.3vw;
+  /* padding-left: 7%; */
+  width: 50%;
+
+}
+
+.u-logs {
+  border-right: 2px solid var(--babypowder);
+  color: var(--babypowder);
+}
+
+.h-logs {
+  border-left: 2px solid var(--babypowder);
+  color: var(--babypowder);
+}
+
+/* LOG BOOK INDEX PAGE */
+#logbook {
+  min-width: 600px;
+}
+#logbook nav {
+  width: 84.9%;
+  margin-left: 7.5%;
+  margin-bottom: -2.46vw;
+}
 .container {
   border-radius: 0 0 20px 20px;
   background: #0A064B;
@@ -78,7 +175,6 @@ img {
   flex-wrap: wrap;
   justify-content: flex-start;
   align-items: flex-start;
-  /* margin: auto 100px; */
   padding: 2% 1% 2% 1.5%;
   margin-left: 7.5%;
   margin-top: -2.4vw;
@@ -126,45 +222,19 @@ img {
   padding: 0 1% 1.5% 1%;
   border: .5px solid #A0B9C1;
   font-family: 'Manuale', serif;
+  min-height: 200px;
 }
 
-.img img{
+/* individual images */
+.img img {
   text-align: center;
   height: 16vw;
-    width: 100%;
+  width: 100%;
+  border: 1px solid #BCF7E6;
+  border-radius: .2vw;
 }
 
-/* .more {
-  margin-top: 10px;
-  margin-left: 5%;
-  font-size: 20px;
-  border: 1px solid black;
-  padding-left: 10%;
-  width: 43%;
-} */
-
-.login {
-  font-size: 1.2vw;
-  padding: .5vw 1vw;
-  margin-left: 2.5vw;
-  color: #40569A;
-  font-family: 'Shrikhand', cursive;
-  font-weight: lighter;
-}
-
-.login-li {
-  font-size: 2vw;
-  color: #40569A;
-  margin-right: -3vw;
-  margin-left: -1vw;
-  padding: 0 2vw;;
-}
-
-.login-signup-li {
-  margin-right: -1vw;
-  margin-left: -1vw;
-}
-
+/* RATINGS */
 .rate-text {
   font-size: 2vw;
   color: #020313;
@@ -187,76 +257,31 @@ img {
   border: .5px solid #F9BF13;
   border-radius: 15px;
 }
-
-.main {
-  display: inline-flex;
+.countries {
+  background: #0A064B;
   width: 85%;
-  justify-content: space-around;
-  flex-wrap: nowrap;
   margin-left: 7.5%;
-  text-align: center;
-}
-
-.usa {
-  border-right: 2px solid var(--babypowder);
-  border-left: 2px solid #0A064B;
-  background: url("/images/P9100911.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 36.5vw;
-  width: 50%;
-}
-
-.honduras {
-  border-left: 2px solid var(--babypowder);
-  border-right: 2px solid #0A064B;
-  background: url("/images/PA05E0271.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 36.5vw;
-  width: 50%;
-}
-
-.index {
-  margin-bottom: 0px;
-}
-
-.links {
-  display: inline-flex;
-  margin-left: 7.5%;
-  width: 100%;
-}
-
-.links a {
-  color: var(--babypowder);
+  font-size: 1.17vw;
+  margin: -1.56vw auto;
   font-family: 'Peddana', serif;
-  font-weight: bold;
-  font-size: 3.51vw;
-  background: var(--darkcoral);
-  margin-top: -.3vw;
-  padding-left: 7%;
-  width: 35.17%;
-  border-bottom: 2px solid #0A064B;
-}
-
-.u-logs {
-  border-right: 2px solid var(--babypowder);
-  border-left: 2px solid #0A064B;
-}
-
-.h-logs {
-  border-left: 2px solid var(--babypowder);
-  border-right: 2px solid #0A064B;
 }
 
 /*  Resource page css*/
+#resource nav {
+  width: 84.9%;
+  margin-left: 7.5%;
+  margin-bottom: -2.46vw;
+}
 .resource-main {
   width: 85%;
   margin-left: 7.5%;
   text-align: center;
 }
-
-table {
+.resource-or-log-h1 {
+  width: 84.5%;
+  margin-left: 7.5%;
+}
+/* .table {
   margin-top: -2.4vw;
   padding-top: 1.56vw;
   padding-left: 5%;
@@ -264,78 +289,95 @@ table {
   background: var(--babypowder);
   border-left: 1px solid #020313;
   border-bottom: 1px solid #020313;
-}
+} */
 
-th {
+/* == */
+
+.table {
+  margin-top: -2.4vw;
+  display: inline-flex;
+  justify-content: space-around;
+  width: 99.5%;
+  border: 1px solid #020313;
+  border-top: none;
+  padding-top: 0vw;
+  padding-bottom: 3vw;
+  background: var(--babypowder);
+}
+ .tr {
+   margin: auto;
+   width: 20%;
+}
+.table p{
   color: #40569A;
-  padding: 1.5vw .78vw .1vw;
   text-decoration: underline;
   font-family: 'Peddana', serif;
   font-size: 2.3vw;
-  border-right: 1px solid #020313;
 }
 
-td {
-  height: 24vw;
+.table a {
+  text-align: center;
   font-family: 'Manuale', serif;
   font-size: 1.56vw;
-  padding: .78vw 1.17vw;
-  border-right: 1px solid #020313;
 }
 
-table, th, td {
-  border-collapse: collapse;
-}
-tr img {
-  margin-top: -3.5vw;
+.table img {
   border: none;
+  width: 18vw;
+  height: 14vw;
+  border-radius: .2vw;
+}
+footer {
+  margin-left: 1.56vw;
+  margin-top: 2.34vw;
+  margin-bottom: -1.56vw;
 }
 /* Hover effects: */
- .name:hover {
-  background:#66D8F6;
+.name:hover {
+  background: #66D8F6;
   color: var(--darkcoral);
   cursor: pointer;
 }
+
 nav a:hover {
   cursor: pointer;
   text-decoration: underline;
 }
+
 a[class="u-logs"]:hover, a[class="h-logs"]:hover {
   cursor: pointer;
   background: var(--babypowder);
   color: var(--darkcoral);
 }
+
 input[type="submit"]:hover {
   cursor: pointer;
   background: #40569A;
   color: var(--babypowder);
 }
+
 a[class="login"]:hover {
   cursor: pointer;
   background: #40569A;
   color: var(--babypowder);
   text-decoration: none;
 }
-td a:hover {
+
+.table a:hover {
   color: #FB0505;
   text-decoration: underline;
-
   /* text-decoration: underline; */
 }
-.countries {
-  background: #0A064B;
-  width: 85%;
-  margin-left: 7.5%;
-  font-size: 1.17vw;
-  margin:-1.56vw auto;
-  font-family: 'Peddana', serif;
-}
 
-footer {
-  margin-left: 1.56vw;
-  margin-top: 2.34vw;
-  margin-bottom: -1.56vw;
-}
+@media
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+	/* Force table to not be like tables anymore */
+	table, thead, tbody, th, td, tr {
+		display: block;
+	}
+
 /*
 font-family: 'Rock Salt', cursive;
 font-family: 'Fugaz One', cursive;
