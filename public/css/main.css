@@ -164,8 +164,8 @@ h1 {
   min-width: 600px;
 }
 #logbook nav {
-  width: 84.9%;
-  margin-left: 7.5%;
+  width: 87%;
+  margin-left: 6.5%;
   margin-bottom: -2.46vw;
 }
 .container {
@@ -176,9 +176,9 @@ h1 {
   justify-content: flex-start;
   align-items: flex-start;
   padding: 2% 1% 2% 1.5%;
-  margin-left: 7.5%;
+  margin-left: 6.5%;
   margin-top: -2.4vw;
-  width: 82.5%;
+  width: 84.6%;
 }
 
 .name {
@@ -268,18 +268,18 @@ h1 {
 
 /*  Resource page css*/
 #resource nav {
-  width: 84.9%;
-  margin-left: 7.5%;
+  width: 90%;
+  margin-left: 6.5%;
   margin-bottom: -2.46vw;
 }
 .resource-main {
-  width: 85%;
-  margin-left: 7.5%;
+  width: 87%;
+  margin-left: 6.5%;
   text-align: center;
 }
 .resource-or-log-h1 {
-  width: 84.5%;
-  margin-left: 7.5%;
+  width: 89.6%;
+  margin-left: 6.5%;
 }
 /* .table {
   margin-top: -2.4vw;
@@ -297,7 +297,7 @@ h1 {
   margin-top: -2.4vw;
   display: inline-flex;
   justify-content: space-around;
-  width: 99.5%;
+  width: 103.3%;
   border: 1px solid #020313;
   border-top: none;
   padding-top: 0vw;
@@ -369,14 +369,98 @@ a[class="login"]:hover {
   /* text-decoration: underline; */
 }
 
+/* MOBILE RESIZE */
 @media
 only screen and (max-width: 760px),
 (min-device-width: 768px) and (max-device-width: 1024px)  {
+nav a {
+    font-size: 3.2vw;
+}
+.main {
+  display: block;
+  height: auto;
+}
+.usa {
+  width: 100%;
+  height: 60vw;
+    border: .2vw solid #40569A;
+}
+.honduras {
+  width: 100%;
+  height: 60vw;
+  border: .2vw solid #40569A;
+}
+.links a {
+  font-size: 6vw;
+  margin-top: 0;
+}
+.table {
+  height: auto;
+  flex-wrap: wrap;
+  padding-bottom: 13vw;
+}
+.tr {
+  width: 40%;
+  padding-top: 2vw;
+  padding-bottom: 7vw;
+}
+.tr img {
+  height: 20vw;
+  min-width: 25vw;
+  margin-bottom: 2vw;
+}
+}
+@media
+only screen and (max-width: 600px), (max-device-width: 600px) {
+  nav a {
+      font-size: 6.5vw;
+  }
+  .login-li {
+    font-size: 4.5vw;
+  }
+  /* .keep-in-line {
+    width: 100%;
+  } */
+  .main {
+    display: block;
+    height: auto;
+}
+  .usa {
+    width: 100%;
+    height: 70vw;
+      border: .2vw solid #40569A;
+  }
+  .honduras {
+    border: .2vw solid #40569A;
+    width: 100%;
+    height: 70vw;
+  }
+  .links a {
+    font-size: 6vw;
+    margin-top: 0;
+  }
+  .table {
+    display: block;
+    height: auto;
+    flex-wrap: wrap;
+  }
+  .tr {
+    width:98%;
+    border-bottom: .2vw solid black;
+    padding: 1vw;
 
-	/* Force table to not be like tables anymore */
-	table, thead, tbody, th, td, tr {
-		display: block;
-	}
+  }
+  .tr img {
+    height: 40vw;
+    min-width: 50vw;
+  }
+  .tr p {
+    font-size: 7vw;
+  }
+  /* .td a {
+    padding-bottom: 6vw;
+  } */
+}
 
 /*
 font-family: 'Rock Salt', cursive;
