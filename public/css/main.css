@@ -168,6 +168,10 @@ h1 {
   margin-left: 6.5%;
   margin-bottom: -2.46vw;
 }
+#log-h1{
+  width: 86.6%;
+  margin-left: 6.5%;
+}
 .container {
   border-radius: 0 0 20px 20px;
   background: #0A064B;
@@ -278,7 +282,7 @@ h1 {
   text-align: center;
 }
 .resource-or-log-h1 {
-  width: 89.6%;
+  width: 86.6%;
   margin-left: 6.5%;
 }
 /* .table {
@@ -368,11 +372,14 @@ a[class="login"]:hover {
   text-decoration: underline;
   /* text-decoration: underline; */
 }
-
+.resource-or-log-h1 {
+  width: 89.6%;
+}
 /* MOBILE RESIZE */
 @media
 only screen and (max-width: 760px),
 (min-device-width: 768px) and (max-device-width: 1024px)  {
+  /* NAV AND MAIN */
 nav a {
     font-size: 3.2vw;
 }
@@ -394,6 +401,9 @@ nav a {
   font-size: 6vw;
   margin-top: 0;
 }
+
+/* RESOURCE PAGE */
+
 .table {
   height: auto;
   flex-wrap: wrap;
@@ -412,6 +422,7 @@ nav a {
 }
 @media
 only screen and (max-width: 600px), (max-device-width: 600px) {
+  /* NAV AND MAIN */
   nav a {
       font-size: 6.5vw;
   }
@@ -439,6 +450,27 @@ only screen and (max-width: 600px), (max-device-width: 600px) {
     font-size: 6vw;
     margin-top: 0;
   }
+  /* DIVE SITES PAGE */
+  .container {
+    justify-content: space-around;
+  }
+  .single {
+    margin: auto;
+    width: 35%;
+    height: 45vw;
+    margin: 2vw;
+  }
+  .single h3 {
+    width: 98%;
+  }
+  .rating {
+    width: 10%;
+  }
+
+  /* RESOURCE PAGE */
+  .resource-or-log-h1 {
+  width: 89.6%;
+}
   .table {
     display: block;
     height: auto;
@@ -452,14 +484,11 @@ only screen and (max-width: 600px), (max-device-width: 600px) {
   }
   .tr img {
     height: 40vw;
-    min-width: 50vw;
+    min-width: 45vw;
   }
   .tr p {
     font-size: 7vw;
   }
-  /* .td a {
-    padding-bottom: 6vw;
-  } */
 }
 
 /*

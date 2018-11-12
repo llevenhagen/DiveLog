@@ -192,7 +192,90 @@ footer {
   /* margin-bottom: -200px; */
 }
 
+/* MOBILE RESIZE */
+@media
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
 
+
+/* LOGIN FORM */
+#body header {
+  width: 87%;
+  margin: auto auto 0 5%;
+}
+#body li {
+    font-size: 3vw;
+    margin: auto;
+}
+.add-container h1 {
+  font-size: 7vw;
+  width: 89%;
+  margin: auto;
+}
+.add-container {
+  padding-top: 4vw;
+  width: 90%;
+  height: 106vw;
+  margin: -3vw auto auto;
+}
+.add-container form {
+  height: 84%;
+  width: 80%;
+  margin: auto auto 4vw auto;
+}
+
+}
+@media
+only screen and (max-width: 600px), (max-device-width: 600px) {
+  /* LOGIN FORM */
+  #body header {
+    width: 85%;
+    margin: auto auto 0 5%;
+    display: inline-flex;
+    flex-wrap: wrap;
+  }
+  #body nav {
+    width: 87%:;
+    margin-left: 3vw;
+  }
+  #body ul {
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin: auto;
+  }
+  #body li {
+      font-size: 6vw;
+      margin: auto;
+  }
+  .login-li {
+    font-size: 4.5vw;
+  }
+  .add-container h1 {
+    font-size: 9vw;
+    width: 89.5%;
+    margin: 3vw auto 0;
+  }
+  .add-container {
+    padding-top: 4vw;
+    width: 83.5%;
+    height: 230vw;
+    margin: -3vw auto auto;
+  }
+  .add-container form {
+    height: 90%;
+    width: 80%;
+    margin: auto auto 4vw auto;
+    font-size: 4.5vw;
+  }
+  .add-container input {
+    font-size: 4.5vw;
+  }
+ .add-container input[class="submit"] {
+   font-size: 7vw;
+   width: 30vw;
+   margin-top: 3vw;
+ }
+  }
 /* FONTS */
 /*
 font-family: 'Rock Salt', cursive;
