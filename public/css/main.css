@@ -422,6 +422,12 @@ nav a {
   min-width: 25vw;
   margin-bottom: 2vw;
 }
+.tr p{
+  font-size: 5vw;
+}
+ .td a  {
+   font-size: 3vw;
+ }
 }
 @media
 only screen and (max-width: 600px), (max-device-width: 600px) {
