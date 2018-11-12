@@ -198,7 +198,7 @@ only screen and (max-width: 760px),
 (min-device-width: 768px) and (max-device-width: 1024px)  {
 
 
-/* LOGIN FORM */
+/* NEW DIVE FORM*/
 #body header {
   width: 87%;
   margin: auto auto 0 5%;
@@ -223,11 +223,41 @@ only screen and (max-width: 760px),
   width: 80%;
   margin: auto auto 4vw auto;
 }
-
+/* SIGN UP FORM / LOG IN FORM */
+.sign-up-header ul, .log-in-header ul {
+  display: inline-flex;
+  justify-content: space-around;
+}
+.sign-up-header li, .log-in-header li{
+  font-size: 4vw;
+}
+#sign-up .container, #log-in .container {
+  height: 80vw;
+}
+#sign-up form, #log-in form {
+  height: 60%;
+  width: 80%;
+  margin: auto;
+  font-size: 3.5vw;
+  padding-top: 8vw;
+}
+#sign-up input, #log-in input {
+  font-size: 3.4vw;
+  margin-bottom: 5vw;
+}
+.login-h1 {
+  font-size: 7vw;
+  width: 89.5%;
+  margin: auto;
+}
+#sign-up p, #log-in p {
+  font-size: 4vw;
+  line-height: 100%;
+}
 }
 @media
 only screen and (max-width: 600px), (max-device-width: 600px) {
-  /* LOGIN FORM */
+  /* NEW DIVE FORM */
   #body header {
     width: 85%;
     margin: auto auto 0 5%;
@@ -275,6 +305,44 @@ only screen and (max-width: 600px), (max-device-width: 600px) {
    width: 30vw;
    margin-top: 3vw;
  }
+ /* SIGN UP FORM / LOG IN FORM */
+ .sign-up-header ul, .log-in-header ul {
+   display: inline-flex;
+   justify-content: space-around;
+ }
+ .sign-up-header li, .log-in-header li{
+   font-size: 6vw;
+ }
+ #sign-up .container, #log-in .container {
+   height: 135vw;
+ }
+ #sign-up form, #log-in form {
+   height: 60%;
+   width: 80%;
+   margin: auto;
+   font-size: 5vw;
+   padding-top: 8vw;
+ }
+ #sign-up input, #log-in input {
+   font-size: 7vw;
+   margin-bottom: 15vw;
+ }
+ .login-h1 {
+   font-size: 8vw;
+   width: 89.5%;
+   margin: auto;
+   margin-top: 10vw;
+ }
+ #sign-up input[class="submit"], #log-in input[class="submit"]{
+  font-size: 7vw;
+  width: 30vw;
+  margin-left: 26%;
+ }
+ #sign-up p, #log-in p {
+   font-size: 6vw;
+   line-height: 100%;
+ }
+
   }
 /* FONTS */
 /*

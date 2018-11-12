@@ -397,6 +397,9 @@ nav a {
   height: 60vw;
   border: .2vw solid #40569A;
 }
+.links {
+  width: 100%;
+}
 .links a {
   font-size: 6vw;
   margin-top: 0;
@@ -425,6 +428,9 @@ only screen and (max-width: 600px), (max-device-width: 600px) {
   /* NAV AND MAIN */
   nav a {
       font-size: 6.5vw;
+  }
+  .login {
+    font-size: 2.5vw;
   }
   .login-li {
     font-size: 4.5vw;
