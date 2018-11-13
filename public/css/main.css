@@ -404,7 +404,16 @@ nav a {
   font-size: 6vw;
   margin-top: 0;
 }
-
+.single {
+  margin: 3vw auto;
+  height: 40vw;
+}
+.single h3 {
+  width: 98%;
+}
+.rating {
+  width: 10%;
+}
 /* RESOURCE PAGE */
 
 .table {
@@ -467,10 +476,9 @@ only screen and (max-width: 600px), (max-device-width: 600px) {
     justify-content: space-around;
   }
   .single {
-    margin: auto;
     width: 35%;
-    height: 49vw;
-    margin: 2vw;
+    height: 40vw;
+    margin: 2vw auto;
   }
   .single h3 {
     width: 98%;
