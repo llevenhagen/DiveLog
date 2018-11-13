@@ -386,11 +386,12 @@ nav a {
 .main {
   display: block;
   height: auto;
+  width: 99.6%
 }
 .usa {
   width: 100%;
   height: 60vw;
-    border: .2vw solid #40569A;
+  border: .2vw solid #40569A;
 }
 .honduras {
   width: 100%;
@@ -398,7 +399,7 @@ nav a {
   border: .2vw solid #40569A;
 }
 .links {
-  width: 100%;
+  width: 99.65%;
 }
 .links a {
   font-size: 6vw;
@@ -456,6 +457,7 @@ only screen and (max-width: 600px), (max-device-width: 600px) {
   .main {
     display: block;
     height: auto;
+      width: 99.63%
 }
   .usa {
     width: 100%;
