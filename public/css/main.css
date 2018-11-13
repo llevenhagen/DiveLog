@@ -412,7 +412,7 @@ nav a {
   width: 98%;
 }
 .rating {
-  width: 10%;
+  width: 20%;
 }
 /* RESOURCE PAGE */
 
@@ -484,7 +484,7 @@ only screen and (max-width: 600px), (max-device-width: 600px) {
     width: 98%;
   }
   .rating {
-    width: 10%;
+    width: 15%;
   }
 
   /* RESOURCE PAGE */
