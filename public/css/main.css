@@ -406,8 +406,11 @@ nav a {
   margin-top: 0;
 }
 /* DIVE SITES PAGE */
+#log-h1 {
+  width: 86.6%;
+}
 #logbook .container {
-  width: 84.5%;
+  width: 84.515%;
 }
 .single {
   margin: 3vw auto;
