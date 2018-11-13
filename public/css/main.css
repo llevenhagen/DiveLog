@@ -301,7 +301,7 @@ h1 {
   margin-top: -2.4vw;
   display: inline-flex;
   justify-content: space-around;
-  width: 103.3%;
+  width: 103.2%;
   border: 1px solid #020313;
   border-top: none;
   padding-top: 0vw;
@@ -373,7 +373,7 @@ a[class="login"]:hover {
   /* text-decoration: underline; */
 }
 .resource-or-log-h1 {
-  width: 89.6%;
+  width: 89.7%;
 }
 /* MOBILE RESIZE */
 @media
